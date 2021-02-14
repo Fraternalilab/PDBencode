@@ -5,7 +5,7 @@ The package provides the functionality to encode given PDB structures
 into Structural Alphabet strings.
 
 ## Usage
-Use the script *Rscripts/pdbencode.R* in the direcotry containing PDB file(s):
+Use the script *Rscripts/pdbencode.R* in the directory containing PDB file(s):
 ```{sh}
 Rscript pdbencode.R 
 ```
