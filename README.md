@@ -4,17 +4,32 @@
 The package provides the functionality to encode given PDB structures
 into Structural Alphabet (SA) strings.
 
+
 ## Installation
-You need to have R installed and the package *bio3d*.
-Download the [latest PDBencode release](https://github.com/Fraternalilab/PDBencode/releases/latest)
+There are several ways to install the *PDBencode* package.
+
+### Linux shell
+You need to have R installed and the *bio3d* package.
+Download the [latest *PDBencode* release (tar.gz)](https://github.com/Fraternalilab/PDBencode/releases/latest)
 and install on the shell with (example for version 0.1):
 ```{sh}
 R CMD INSTALL PDBencode-v.0.1.tar.gz
 ```
-Alternatively on the R console (example for version 0.1, assuming it is located in the current directory):
+
+### R console
+Download the [latest *PDBencode* release (tar.gz)](https://github.com/Fraternalilab/PDBencode/releases/latest) and
+install from the R console (example for version 0.1, assuming it is located in the current directory):
 ```{r}
 install.packages("./PDBencode-v.0.1.tar.gz")
 ```
+
+### R console with devtools
+Install the *devtools* package and install *PDBencode* directly from GitHub:
+```{r}
+library("devtools")
+install_github("Fraternalilab/PDBencode")
+```
+
 
 ## Usage
 Run the script *Rscripts/pdbencode.R* in the directory containing PDB file(s):
