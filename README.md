@@ -11,7 +11,7 @@ and install on the shell with (example for version 0.1):
 ```{sh}
 R CMD INSTALL PDBencode-v.0.1.tar.gz
 ```
-Alternatively on the R console (assuming it is located in the current directory):
+Alternatively on the R console (example for version 0.1, assuming it is located in the current directory):
 ```{r}
 install.packages("./PDBencode-v.0.1.tar.gz")
 ```
