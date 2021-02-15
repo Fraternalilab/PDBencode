@@ -10,14 +10,14 @@ There are several ways to install the *PDBencode* package, please choose one of 
 You need to have R installed and the *bio3d* package.
 
 ### Linux shell
-Download the [latest *PDBencode* release (tar.gz)](https://github.com/Fraternalilab/PDBencode/releases/latest)
+Download the [latest *PDBencode* release (.tar.gz)](https://github.com/Fraternalilab/PDBencode/releases/latest)
 and install on the shell with (example for version 0.1):
 ```{sh}
 R CMD INSTALL PDBencode-v.0.1.tar.gz
 ```
 
 ### R console
-Download the [latest *PDBencode* release (tar.gz)](https://github.com/Fraternalilab/PDBencode/releases/latest) and
+Download the [latest *PDBencode* release (.tar.gz)](https://github.com/Fraternalilab/PDBencode/releases/latest) and
 install from the R console (example for version 0.1, assuming it is located in the current directory):
 ```{r}
 install.packages("./PDBencode-v.0.1.tar.gz")
