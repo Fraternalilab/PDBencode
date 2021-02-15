@@ -7,9 +7,9 @@ into Structural Alphabet (SA) strings.
 
 ## Installation
 There are several ways to install the *PDBencode* package, please choose one of the following.
+You need to have R installed and the *bio3d* package.
 
 ### Linux shell
-You need to have R installed and the *bio3d* package.
 Download the [latest *PDBencode* release (tar.gz)](https://github.com/Fraternalilab/PDBencode/releases/latest)
 and install on the shell with (example for version 0.1):
 ```{sh}
