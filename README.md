@@ -1,4 +1,4 @@
-## PDBencode: Encode PDB Structure using Structural Alphabet 
+## PDBencode: Encode PDB Structure using a Structural Alphabet 
 [![release](https://img.shields.io/badge/release-v0.1-green?logo=github)](https://github.com/Fraternalilab/PDBencode)
 
 The package provides the functionality to encode given PDB structures
