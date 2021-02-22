@@ -4,7 +4,7 @@
 #'
 #' Encode a protein structure with the M32K25 structural alphabet.
 #'
-#' Given a PDB structure and trajectory, this function will fit C-alpha
+#' Given a PDB structure, this function will fit C-alpha
 #' coordinates of all consecutive 4-residue fragments with the canonical
 #' fragments of the M32K25 structural alphabet, selecting the optimal
 #' (lowest RMSD) fragment in each case.

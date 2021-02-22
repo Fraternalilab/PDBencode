@@ -1,7 +1,7 @@
-Package: PDBencode 
+Package: PDBencode
 Type: Package
 Version: 0.1
-Title: Encode PDB structure with Structural ALphabet 
+Title: Encode PDB structures into Structural Alphabet sequences 
 Authors@R: c(person("Jens", "Kleinjung", role  = c("aut", "cre", "cph"),
                      email = "jens@jkleinj.eu"),
 			 person("Franca", "Fraternali", role  = c("aut", "cph"),
@@ -10,14 +10,14 @@ Authors@R: c(person("Jens", "Kleinjung", role  = c("aut", "cre", "cph"),
 Description: The package reads one or several protein structures 
   and encodes them using prototypical fragments (letters) of a structural alphabet.
 Depends: R (>= 3.4)
-Imports: bio3d (>= 2.3)
-Suggests: knitr,
-          rmarkdown
-Collate: kabsch.R kabsch_C.R sa_encode.R
+Imports: bio3d (>= 2.3), methods
+Suggests: knitr, rmarkdown
+Collate: generic.R kabsch.R kabsch_C.R sa_encode.R
 License: GPL-3
 URL: https://github.com/Fraternalilab/PDBencode
 BugReports: https://github.com/Fraternalilab/PDBencode/Issues
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
 VignetteBuilder: knitr

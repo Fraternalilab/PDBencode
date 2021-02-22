@@ -1,5 +1,0 @@
-
-PKG_CPPFLAGS = -I/usr/include
-PKG_LDFLAGS = /usr/local/lib
-PKG_LIBS= -L$(PKG_LDFLAGS) -lgsl -lm -Wl,-rpath,$(PKG_LDFLAGS)
-
