@@ -20,14 +20,20 @@ for (i in 1:length(strs)) {
 	str = strs[i];
 	## structure name
 	str_name = unlist(strsplit(str, "\\.", perl = TRUE))[1]
-	## read structure
 	str_bio3d = bio3d::read.pdb2(str)
+	## read structure
 	## chains
 	chains = unique(str_bio3d$atom$chain)
 	## for each chain
-	sa_stack.fasta = sapply(1:length(chains), function(j) {
-		## indices of Calpha atoms only and this chain
+	sa_stack.fasta = unlist(sapply(1:length(chains), function(j) {
+		message(paste("Chain", j, chains[j]))
+	  ## indices of Calpha atoms only and this chain
 		ca.inds = bio3d::atom.select(str_bio3d, "calpha", chain = chains[j])
+		## in case the chain does not contain enough protein sequence
+		if (length(ca.inds$atom) < 4) {
+		  message("  Chain not encoded: <4 CA atoms")
+		  return()
+		}
 		# subset PDB structure with indices
 		str_bio3d_ca = trim.pdb(str_bio3d, ca.inds)
 
@@ -39,10 +45,11 @@ for (i in 1:length(strs)) {
 		## Structural Alphabet sequence in FASTA format
 		sa_string.fasta = sprintf(">%s%s%s\n%s", str_name, "|", chains[j], sa_string.v)
 		return(sa_string.fasta)
-	})
+	}))
+	
 	## write stacked sequences, all chains of this structure
-	write.table(sa_stack.fasta, file = paste(str_name, "_sa.fasta", sep = ''),
-		quote = FALSE, row.names = FALSE, col.names = FALSE);
+	write.table(sa_stack.fasta, file = paste(str_name, "sasta", sep = '.'),
+		quote = FALSE, row.names = FALSE, col.names = FALSE)
 }
 
 #===============================================================================
