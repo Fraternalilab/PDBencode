@@ -1,8 +1,12 @@
 # Revision History of PDBencode Package 
 
-= 0.2
+= 0.3
 Sat  6 Mar 18:16:26 GMT 2021
 	Correction in handling of chains without CA atoms
+
+= 0.2
+22 Feb 2021
+	Complete package
 
 - 0.1
 Fri 12 Feb 18:41:06 GMT 2021
