@@ -1,3 +1,5 @@
+#!/usr/bin/env Rscript
+
 #===============================================================================
 # PDBencode 
 # Read PDB structure(s) in local directory
@@ -7,10 +9,34 @@
 
 library("PDBencode")
 library("bio3d")
+library("optparse")
+
+#_______________________________________________________________________________
+## directory paths for R script and data
+## default paths
+scriptDir = "."
+dataDir = "."
+
+option_list = list(
+  make_option(c("-s", "--script"), type = "character", default = NULL,
+              help = "R script path", metavar = "character"),
+  make_option(c("-d", "--data"), type = "character", default = NULL,
+              help = "data path", metavar = "character")
+);
+
+opt_parser = OptionParser(option_list = option_list);
+opt = parse_args(opt_parser);
+
+if(! is.null(opt$script)) {
+  scriptDir = opt$script
+}
+if (! is.null(opt$data)) {
+  dataDir = opt$data 
+}
 
 #_______________________________________________________________________________
 ## input structure(s)
-strs = list.files(pattern = "\\.pdb$")
+strs = list.files(path = dataDir, pattern = "\\.pdb$")
 message("Input structures:")
 message(paste(strs, "\n"))
 
@@ -20,7 +46,7 @@ for (i in 1:length(strs)) {
 	str = strs[i];
 	## structure name
 	str_name = unlist(strsplit(str, "\\.", perl = TRUE))[1]
-	str_bio3d = bio3d::read.pdb2(str)
+	str_bio3d = bio3d::read.pdb(paste(dataDir, str, sep = '/'))
 	## read structure
 	## chains
 	chains = unique(str_bio3d$atom$chain)
@@ -48,7 +74,7 @@ for (i in 1:length(strs)) {
 	}))
 	
 	## write stacked sequences, all chains of this structure
-	write.table(sa_stack.fasta, file = paste(str_name, "sasta", sep = '.'),
+	write.table(sa_stack.fasta, file = paste(dataDir, "/", str_name, ".sasta", sep = ''),
 		quote = FALSE, row.names = FALSE, col.names = FALSE)
 }
 

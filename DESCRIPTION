@@ -5,7 +5,7 @@ Title: Encode PDB structures into Structural Alphabet sequences
 Authors@R: c(person("Jens", "Kleinjung", role  = c("aut", "cre", "cph"),
                      email = "jens@jkleinj.eu"),
 			 person("Franca", "Fraternali", role  = c("aut", "cph"),
-                     email = "franca.fraternali@kcl.ac.uk")
+                     email = "franca.fraternali@kcl.ac.uk"),
 			 person("Joseph CF", "Ng", role  = c("aut", "cph"),
                      email = "joseph.ng@kcl.ac.uk")
 			)
