@@ -1,5 +1,5 @@
 ## PDBencode: Encode PDB structures into Structural Alphabet sequences 
-[![release](https://img.shields.io/badge/release-v0.1-green?logo=github)](https://github.com/Fraternalilab/PDBencode)
+[![release](https://img.shields.io/badge/release-v0.4-green?logo=github)](https://github.com/Fraternalilab/PDBencode)
 
 The package provides the functionality to encode given PDB structures
 into Structural Alphabet (SA) strings.
