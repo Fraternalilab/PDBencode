@@ -45,6 +45,10 @@ The R script accepts 3 command line options:
 - *--data* : Path to the data directory
 - *--help* : Help for command line arguments
 
+```{sh}
+Rscript pdbencode.R --script <path_to_script) --data <path_to_data>
+```
+
 
 #### Copyright Holders, Authors and Maintainers 
 - 2021 Jens Kleinjung (author, maintainer) jens@jkleinj.eu
