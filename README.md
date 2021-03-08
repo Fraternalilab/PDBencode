@@ -46,7 +46,7 @@ The R script accepts 3 command line options:
 - *--help* : Help for command line arguments
 
 ```{sh}
-Rscript pdbencode.R --script <path_to_script) --data <path_to_data>
+Rscript pdbencode.R --script <path_to_script> --data <path_to_data>
 ```
 
 
