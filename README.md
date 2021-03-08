@@ -11,16 +11,16 @@ You need to have R installed and the *bio3d* package.
 
 ### Linux shell
 Download the [latest *PDBencode* release (.tar.gz)](https://github.com/Fraternalilab/PDBencode/releases/latest)
-and install on the shell with (example for version 0.1):
+and install on the shell with (example for version 0.4):
 ```{sh}
-R CMD INSTALL PDBencode-v.0.1.tar.gz
+R CMD INSTALL PDBencode-v.0.4.tar.gz
 ```
 
 ### R console
 Download the [latest *PDBencode* release (.tar.gz)](https://github.com/Fraternalilab/PDBencode/releases/latest) and
 install from the R console (example for version 0.1, assuming it is located in the current directory):
 ```{r}
-install.packages("./PDBencode-v.0.1.tar.gz")
+install.packages("./PDBencode-v.0.4.tar.gz")
 ```
 
 ### R console with devtools
