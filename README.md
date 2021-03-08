@@ -32,6 +32,7 @@ install_github("Fraternalilab/PDBencode")
 
 
 ## Usage
+### Option 1
 Run the R script *Rscripts/pdbencode.R* in the directory containing PDB file(s):
 ```{sh}
 Rscript pdbencode.R 
@@ -40,14 +41,17 @@ All PDB files (with extension ".pdb") in that directory will be processed.
 Each structure \<ID\>.pdb yields an encoded \<ID\>.sasta file containing
 one SA sequence per chain. The format of SA sequence headers is \<ID\>|\<chain\>.
 
+### Option 2
+Provide the path to the data directory as command line parameter.
 The R script accepts 3 command line options:
-- *--script* : Path to the directory containing the R script
 - *--data* : Path to the data directory
+- *--script* : Path to the directory containing the R script
 - *--help* : Help for command line arguments
 
 ```{sh}
-Rscript pdbencode.R --script <path_to_script> --data <path_to_data>
+Rscript pdbencode.R --data <path_to_data>
 ```
+The script path is unused at the moment.
 
 
 #### Copyright Holders, Authors and Maintainers 
