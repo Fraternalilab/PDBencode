@@ -1,6 +1,6 @@
 Package: PDBencode
 Type: Package
-Version: 0.3
+Version: 0.4
 Title: Encode PDB structures into Structural Alphabet sequences 
 Authors@R: c(person("Jens", "Kleinjung", role  = c("aut", "cre", "cph"),
                      email = "jens@jkleinj.eu"),
@@ -12,7 +12,7 @@ Authors@R: c(person("Jens", "Kleinjung", role  = c("aut", "cre", "cph"),
 Description: The package reads one or several protein structures 
   and encodes them using prototypical fragments (letters) of a structural alphabet.
 Depends: R (>= 3.4)
-Imports: bio3d (>= 2.3), methods
+Imports: bio3d (>= 2.3), optparse (>= 1.6.6), methods
 Suggests: knitr, rmarkdown
 Collate: generic.R kabsch.R kabsch_C.R sa_encode.R
 License: GPL-3

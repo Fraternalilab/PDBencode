@@ -1,5 +1,9 @@
 # Revision History of PDBencode Package 
 
+-0.4
+Mon  8 Mar 11:31:15 GMT 2021
+	Added command line arguments to execute in Docker image
+
 = 0.3
 Sat  6 Mar 18:16:26 GMT 2021
 	Correction in handling of chains without CA atoms
