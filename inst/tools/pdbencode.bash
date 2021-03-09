@@ -5,31 +5,28 @@
 # pdbencode.bash
 # encodes structures in specified data directory
 # requires the pdbencodedocker image (see buildDockerImage.bash)
-# - first command line argument is path to 'pdbencode.R' script
-# - second command line argument is path to data directory containing structures
+# - first command line argument is path to data directory containing structures
+# - second command line argument is path to 'pdbencode.R' script
 # without command line arguments, the intrinsic script and data will be used
 #===============================================================================
 
-echo "Usage: pdbencode.bash <path_to_script> <path_to_data>"
-echo "  for example:"
-echo "    <path_to_script>: /home/<user>/PDBencode/Rscripts"
-echo "    <path_to_data>: /home/<user>/PDBencode/inst/tools/data"
+echo "Usage: pdbencode.bash <path_to_data> <path_to_script>"
 
-SCRIPT_DIR="/usr/local/lib/R/site-library/PDBencode/tools"
 DATA_DIR="/usr/local/lib/R/site-library/PDBencode/tools/data"
+SCRIPT_DIR="/usr/local/lib/R/site-library/PDBencode/tools"
 
-[[ ! -z "$1" ]] && { SCRIPT_DIR=$1 }
-[[ ! -z "$2" ]] && { DATA_DIR=$2 }
+[[ ! -z "$1" ]] && { DATA_DIR=$1 }
+[[ ! -z "$2" ]] && { SCRIPT_DIR=$2 }
 
-echo "Script directory: ${SCRIPT_DIR}"
 echo "Data directory: ${DATA_DIR}"
+echo "Script directory: ${SCRIPT_DIR}"
 
 #_______________________________________________________________________________
 ## initiate docker container
 echo "Initialising Docker container"
 sudo docker run --ipc=host \
--v "${SCRIPT_DIR}":"${SCRIPT_DIR}" \
 -v "${DATA_DIR}":"${DATA_DIR}" \
+-v "${SCRIPT_DIR}":"${SCRIPT_DIR}" \
 --name pdbencodedocker \
 --cidfile pdbencodedocker.cid \
 -itd pdbencodedocker

@@ -1,8 +1,10 @@
 #!/usr/bin/env Rscript
 
 #===============================================================================
-# PDBencode 
-# Read PDB structure(s) in local directory
+# PDBencode script for the Docker container 
+# Read PDB structure(s) in mounted (and argument-passed) directory
+# Use this R script by default unless a diffferent script is
+#   mounted and argument-passed
 # Encode structure(s) and write SA string(s) as FASTA format
 # Each chain is encoded separately
 #===============================================================================
@@ -13,25 +15,25 @@ library("optparse")
 
 #_______________________________________________________________________________
 ## directory paths for R script and data
-## default paths
-scriptDir = "."
+## default paths in the Docker container
 dataDir = "."
+scriptDir = "."
 
 option_list = list(
-  make_option(c("-s", "--script"), type = "character", default = NULL,
-              help = "R script path", metavar = "character"),
   make_option(c("-d", "--data"), type = "character", default = NULL,
               help = "data path", metavar = "character")
+  make_option(c("-s", "--script"), type = "character", default = NULL,
+              help = "R script path", metavar = "character"),
 );
 
 opt_parser = OptionParser(option_list = option_list);
 opt = parse_args(opt_parser);
 
-if(! is.null(opt$script)) {
-  scriptDir = opt$script
-}
 if (! is.null(opt$data)) {
   dataDir = opt$data 
+}
+if(! is.null(opt$script)) {
+  scriptDir = opt$script
 }
 
 #_______________________________________________________________________________
