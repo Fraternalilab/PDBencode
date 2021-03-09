@@ -7,6 +7,7 @@
 # requires the pdbencodedocker image (see buildDockerImage.bash)
 # - first command line argument is path to 'pdbencode.R' script
 # - second command line argument is path to data directory containing structures
+# without command line arguments, the intrinsic script and data will be used
 #===============================================================================
 
 echo "Usage: pdbencode.bash <path_to_script> <path_to_data>"
@@ -14,13 +15,17 @@ echo "  for example:"
 echo "    <path_to_script>: /home/<user>/PDBencode/Rscripts"
 echo "    <path_to_data>: /home/<user>/PDBencode/inst/tools/data"
 
-[[ -z "$1" ]] && { echo "Path to script is empty, need first command line argument" ; exit 1; }
-[[ -z "$2" ]] && { echo "Path to data is empty, need second command line argument" ; exit 1; }
+SCRIPT_DIR="/usr/local/lib/R/site-library/PDBencode/tools"
+DATA_DIR="/usr/local/lib/R/site-library/PDBencode/tools/data"
 
-SCRIPT_DIR=$1
-DATA_DIR=$2
+[[ ! -z "$1" ]] && { SCRIPT_DIR=$1 }
+[[ ! -z "$2" ]] && { DATA_DIR=$2 }
 
-# initiate docker container
+echo "Script directory: ${SCRIPT_DIR}"
+echo "Data directory: ${DATA_DIR}"
+
+#_______________________________________________________________________________
+## initiate docker container
 echo "Initialising Docker container"
 sudo docker run --ipc=host \
 -v "${SCRIPT_DIR}":"${SCRIPT_DIR}" \
@@ -31,12 +36,16 @@ sudo docker run --ipc=host \
 
 cid=$(cat pdbencodedocker.cid)
 
-# run pdbencode inside the container
+#_______________________________________________________________________________
+## run pdbencode inside the container
 echo "Running PDBencode ..."
 docker exec -it pdbencodedocker Rscript ${SCRIPT_DIR}/pdbencode.R --data ${DATA_DIR}
 
-# clean up (remove exited docker containers)
+#_______________________________________________________________________________
+## clean up (remove exited docker containers)
 docker stop $cid
 docker rm $(docker ps -q -f status=exited)
 rm pdbencodedocker.cid
+
+#===============================================================================
 
