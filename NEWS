@@ -1,5 +1,9 @@
 # Revision History of PDBencode Package 
 
+- 0.5
+Tue  9 Mar 09:18:44 GMT 2021
+	Completed Docker image setup
+
 -0.4
 Mon  8 Mar 11:31:15 GMT 2021
 	Added command line arguments to execute in Docker image
