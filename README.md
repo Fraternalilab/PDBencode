@@ -8,7 +8,7 @@ into Structural Alphabet (SA) strings.
 ## Installation
 There are several ways to install the *PDBencode* package, please choose one of the following.
 For the *Install* options you need to have R installed and the *bio3d* package.
-Alternatively the Docker container
+Alternatively the Docker container provides a mode to run *PDBencode* without explicit installation.
 
 ### Install on Linux shell
 Download the [latest *PDBencode* release (.tar.gz)](https://github.com/Fraternalilab/PDBencode/releases/latest)
