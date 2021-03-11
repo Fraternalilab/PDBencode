@@ -52,6 +52,9 @@ All PDB files (with extension ".pdb") in that directory will be processed.
 Each structure \<ID\>.pdb yields an encoded \<ID\>.sasta file containing
 one SA sequence per chain. The format of SA sequence headers is \<ID\>|\<chain\>.
 
+You may run this command on the Docker container as well, but it will only
+process the example data in *extdata*.
+
 ### Option 2
 Provide the path to the data directory as command line parameter.
 The R script accepts 3 command line options:
@@ -62,7 +65,7 @@ The R script accepts 3 command line options:
 ```{sh}
 Rscript pdbencode.R --data <path_to_data>
 ```
-The script path is unused at the moment.
+The script path is only to be used for a modified *pdbencode.R* script.
 
 
 #### Copyright Holders, Authors and Maintainers 
