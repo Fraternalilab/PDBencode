@@ -16,14 +16,14 @@ library("optparse")
 #_______________________________________________________________________________
 ## directory paths for R script and data
 ## default paths in the Docker container
-dataDir = "/usr/local/lib/R/site-library/PDBencode/tools/data"
-scriptDir = "/usr/local/lib/R/site-library/PDBencode/tools"
+dataDir = "/usr/local/lib/R/site-library/PDBencode/extdata"
+scriptDir = "/usr/local/lib/R/site-library/PDBencode/exec"
 
 option_list = list(
   make_option(c("-d", "--data"), type = "character", default = NULL,
-              help = "data path", metavar = "character")
+              help = "data path", metavar = "character"),
   make_option(c("-s", "--script"), type = "character", default = NULL,
-              help = "R script path", metavar = "character"),
+              help = "R script path", metavar = "character")
 );
 
 opt_parser = OptionParser(option_list = option_list);

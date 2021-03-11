@@ -12,8 +12,8 @@
 
 echo "Usage: pdbencode.bash <path_to_data> <path_to_script>"
 
-DATA_DIR="/usr/local/lib/R/site-library/PDBencode/tools/data"
-SCRIPT_DIR="/usr/local/lib/R/site-library/PDBencode/tools"
+DATA_DIR="/usr/local/lib/R/site-library/PDBencode/extdata"
+SCRIPT_DIR="/usr/local/lib/R/site-library/PDBencode/exec"
 
 [[ ! -z "$1" ]] && { DATA_DIR=$1 ; }
 [[ ! -z "$2" ]] && { SCRIPT_DIR=$2 ; }
