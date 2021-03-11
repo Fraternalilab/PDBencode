@@ -65,7 +65,8 @@ The R script accepts 3 command line options:
 ```{sh}
 Rscript pdbencode.R --data <path_to_data>
 ```
-The script path is only to be used for a modified *pdbencode.R* script.
+The script path is intended to be used for a modified *pdbencode.R* script.
+For most purposes the built-in script should suffice.
 
 
 #### Copyright Holders, Authors and Maintainers 
