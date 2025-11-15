@@ -57,11 +57,14 @@ for (i in 1:length(strs)) {
 
 	## chains
 	chains = unique(str_bio3d$atom$chain)
+	
+	message(paste("\tprocessing", n_models, "models, each with", length(chains), "chain(s)"))
+	
 	## for each chain
 	sa_stack_sasta.l = lapply(1:length(chains), function(k) {
 	  sa_stack_sasta.v = sapply(1:n_models, function(j) {
-	    if (j %% 10 == 0) { message(paste("Number of encoded models:", j))}
-	    message(paste("Chain", k, chains[k]))
+	    if (j %% 100 == 0) { message(paste("\t\tNumber of encoded models:", j))}
+	    #message(paste("Chain", k, chains[k]))
 	    
 	    ## indices of Calpha atoms only and this chain
 		  ca.inds = bio3d::atom.select(str_bio3d, "calpha", chain = chains[k])
