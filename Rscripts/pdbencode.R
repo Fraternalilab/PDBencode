@@ -3,7 +3,7 @@
 #===============================================================================
 # PDBencode script for the Docker container 
 # Read PDB structure(s) in mounted (and argument-passed) directory
-# Use this R script by default unless a diffferent script is
+# Use this R script by default unless a different script is
 #   mounted and argument-passed
 # Encode structure(s) and write SA string(s) as FASTA format
 # Each chain is encoded separately
@@ -48,8 +48,8 @@ for (i in 1:length(strs)) {
 	str = strs[i];
 	## structure name
 	str_name = unlist(strsplit(str, "\\.", perl = TRUE))[1]
+	## read structure, only first MODEL is used if several present
 	str_bio3d = bio3d::read.pdb(paste(dataDir, str, sep = '/'))
-	## read structure
 	## chains
 	chains = unique(str_bio3d$atom$chain)
 	## for each chain
