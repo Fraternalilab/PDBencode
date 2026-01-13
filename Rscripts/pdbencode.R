@@ -20,17 +20,20 @@ dataDir = "."
 scriptDir = "."
 
 option_list = list(
-  make_option(c("-d", "--data"), type = "character", default = NULL,
+  make_option(c("-d", "--data"), type = "character", default = ".",
               help = "data path", metavar = "character"),
-  make_option(c("-s", "--script"), type = "character", default = NULL,
-              help = "R script path", metavar = "character")
+  make_option(c("-s", "--script"), type = "character", default = ".",
+              help = "R script path", metavar = "character"),
+  make_option(c("-c", "--cif"), type = "character", default = FALSE,
+              action = "store_true",
+              help = "structure in mmCIF format", metavar = "character")
 );
 
 opt_parser = OptionParser(option_list = option_list);
 opt = parse_args(opt_parser);
 
 if (! is.null(opt$data)) {
-  dataDir = opt$data 
+  dataDir = opt$data
 }
 if(! is.null(opt$script)) {
   scriptDir = opt$script
@@ -38,7 +41,12 @@ if(! is.null(opt$script)) {
 
 #_______________________________________________________________________________
 ## input structure(s)
-strs = list.files(path = dataDir, pattern = "\\.pdb$")
+if (opt$cif == FALSE) {
+  strs = list.files(path = dataDir, pattern = "\\.pdb$")
+} else {
+  strs = list.files(path = dataDir, pattern = "\\.cif$")
+}
+
 message("Input structures:")
 message(paste(strs, "\n"))
 
@@ -49,7 +57,12 @@ for (i in 1:length(strs)) {
 	## structure name
 	str_name = unlist(strsplit(str, "\\.", perl = TRUE))[1]
 	## read structure, only first MODEL is used if several present
-	str_bio3d = bio3d::read.pdb(paste(dataDir, str, sep = '/'))
+	if (opt$cif == FALSE) {
+	  ## default is PDB format
+	  str_bio3d = bio3d::read.pdb(paste(dataDir, str, sep = '/'))
+	} else {
+	  str_bio3d = bio3d::read.cif(paste(dataDir, str, sep = '/'))
+	}
 	## chains
 	chains = unique(str_bio3d$atom$chain)
 	## for each chain

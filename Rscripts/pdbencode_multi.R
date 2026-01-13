@@ -61,8 +61,8 @@ for (i in 1:length(strs)) {
 	message(paste("\tprocessing", n_models, "models, each with", length(chains), "chain(s)"))
 	
 	## for each chain
-	sa_stack_sasta.l = lapply(1:length(chains), function(k) {
-	  sa_stack_sasta.v = sapply(1:n_models, function(j) {
+	sa_stack_sseq.l = lapply(1:length(chains), function(k) {
+	  sa_stack_sseq.v = sapply(1:n_models, function(j) {
 	    if (j %% 100 == 0) { message(paste("\t\tNumber of encoded models:", j))}
 	    #message(paste("Chain", k, chains[k]))
 	    
@@ -81,18 +81,18 @@ for (i in 1:length(strs)) {
   		sa_char.v = encode(str_bio3d_ca$xyz[j, ])
   		## from vector of chars to (vector of) string
   		sa_string.v = paste(sa_char.v, collapse = '')
-  		## Structural Alphabet sequence in FASTA format
+  		## Structural Alphabet sequence
   		return(sa_string.v)
   	})
 	  
-	  return(sa_stack_sasta.v)
+	  return(sa_stack_sseq.v)
 	})
 	
-	names(sa_stack_sasta.l) = chains
+	names(sa_stack_sseq.l) = chains
 	
-	## write the stacked sastas of each chain
+	## write the stacked sseqs of each chain
 	for (l in 1:length(chains)) {
-	  write.table(sa_stack_sasta.l[[l]], file = paste(dataDir, "/", str_name, "_", chains[l], ".sasta", sep = ''),
+	  write.table(sa_stack_sseq.l[[l]], file = paste(dataDir, "/", str_name, "_", chains[l], ".sseq", sep = ''),
 	              quote = FALSE, row.names = FALSE, col.names = FALSE)
 	}
 }

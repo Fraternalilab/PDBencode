@@ -60,6 +60,7 @@ Provide the path to the data directory as command line parameter.
 The R script accepts 3 command line options:
 - *--data* : Path to the data directory
 - *--script* : Path to the directory containing the R script
+- *--cif* : Flag to process ".cif" files instead of ".pdb" files.
 - *--help* : Help for command line arguments
 
 ```{sh}
@@ -70,6 +71,6 @@ For most purposes the built-in script should suffice.
 
 
 #### Copyright Holders, Authors and Maintainers 
-- 2021 Jens Kleinjung (author, maintainer) jens@jkleinj.eu
-- 2021 Franca Fraternali (author, maintainer) franca.fraternali@kcl.ac.uk
+- 2021-2026 Jens Kleinjung (author, maintainer) jens@jkleinj.eu
+- 2021-2026 Franca Fraternali (author, maintainer) franca.fraternali@kcl.ac.uk
 
