@@ -1,8 +1,12 @@
 # Revision History of PDBencode Package 
 
+- 0.8
+Tue Jan 13 20:09:28 GMT 2026
+	Added "--fitout" option to write out fitted fragments
+
 - 0.7
 Tue Jan 13 16:33:10 GMT 2026
-	Added option for structures in mmCIF format (now PDB standard).
+	Added "--cif" option for structures in mmCIF format (now PDB standard)
 	bio3d warns, but its internal CIF->PDB conversion is fine for encoding
 
 - 0.6

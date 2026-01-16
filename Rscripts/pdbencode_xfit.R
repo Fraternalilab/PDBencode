@@ -1,10 +1,11 @@
 #!/usr/bin/env Rscript
 
 #===============================================================================
-# PDBencode script for the Docker container 
+# PDBencode script with output of fitted fragments
+# - localfit: fragment fit to CA1-CA2-CA3-CA4 atoms of the template structure
+# - globalfit: fragment fit to CA2-CA3-CA4 of the previously fitted fragment
+#     and the CA4 of the template structure
 # Read PDB structure(s) in mounted (and argument-passed) directory
-# Use this R script by default unless a different script is
-#   mounted and argument-passed
 # Encode structure(s) and write SA string(s) as FASTA format
 # Each chain is encoded separately
 #===============================================================================
@@ -26,7 +27,13 @@ option_list = list(
               help = "R script path", metavar = "character"),
   make_option(c("-c", "--cif"), type = "character", default = FALSE,
               action = "store_true",
-              help = "structure in mmCIF format", metavar = "character")
+              help = "structure in mmCIF format", metavar = "character"),
+  make_option(c("-l", "--localfit"), type = "character", default = FALSE,
+              action = "store_true",
+              help = "output locally fitted fragments", metavar = "character"),
+  make_option(c("-g", "--globalfit"), type = "character", default = FALSE,
+              action = "store_true",
+              help = "output globally fitted fragments", metavar = "character")
 )
 
 opt_parser = OptionParser(option_list = option_list)
@@ -35,8 +42,15 @@ opt = parse_args(opt_parser)
 if (! is.null(opt$data)) {
   dataDir = opt$data
 }
-if(! is.null(opt$script)) {
+if (! is.null(opt$script)) {
   scriptDir = opt$script
+}
+
+## in case of ambiguity, run with '--localfit'
+if (opt$localfit == TRUE & opt$globalfit == TRUE) {
+  opt$globalfit == FALSE
+  print("The fit options '--localfit' and '--globalfit' are mutually exclusive!")
+  print("Overwrote selected options; running program with '--localfit'.")
 }
 
 #_______________________________________________________________________________
@@ -79,8 +93,15 @@ for (i in 1:length(strs)) {
 		str_bio3d_ca = trim.pdb(str_bio3d, ca.inds)
 
 		#_______________________________________________________________________________
-		## encode structure
-		sa_char.v = encode(str_bio3d_ca$xyz)
+		## encode structure, fit output selectable
+		if (opt$localfit == TRUE) {
+		  sa_char.v = encode(str_bio3d_ca$xyz, xfit = 1)
+		} else if (opt$globalfit == TRUE) {
+		  sa_char.v = encode(str_bio3d_ca$xyz, xfit = 2)
+		} else {
+		  sa_char.v = encode(str_bio3d_ca$xyz, xfit = 0)
+		}
+		  
 		## from vector of chars to (vector of) string
 		sa_string.v = paste(sa_char.v, collapse = '')
 		## Structural Alphabet sequence in FASTA format
@@ -91,6 +112,12 @@ for (i in 1:length(strs)) {
 	## write stacked sequences, all chains of this structure
 	write.table(sa_stack.fasta, file = paste(dataDir, "/", str_name, ".sasta", sep = ''),
 		quote = FALSE, row.names = FALSE, col.names = FALSE)
+	
+	if (opt$fitout == TRUE) {
+	## write out fitted fragments
+	  write.pdb(frags, file = paste(dataDir, "/", str_name, "frags.pdb", sep = ''),
+	              quote = FALSE, row.names = FALSE, col.names = FALSE)
+	}
 }
 
 #===============================================================================

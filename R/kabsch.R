@@ -21,7 +21,8 @@
 #' @references
 #' \url{https://en.wikipedia.org/wiki/Kabsch_algorithm}
 #'
-#' (C) 2019 Jamie Macpherson and Jens Kleinjung
+#' (C) 2019 Jamie Macpherson
+#' (C) 2019-2026 Jens Kleinjung
 #===============================================================================
 
 kabsch_R = function(Q, P) {
@@ -64,7 +65,7 @@ kabsch_R = function(Q, P) {
 	rmsd = sqrt(sum(apply(Dsr.sq, 1, sum)) / dim(Dsr.sq)[1]);
 
 	## spit out the optimal fit RMSD between Q and P
-	return(rmsd)
+	return(list(rmsd = rmsd, xyz = Prot))
 }
 
 #===============================================================================

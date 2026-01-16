@@ -1,10 +1,8 @@
 #!/usr/bin/env Rscript
 
 #===============================================================================
-# PDBencode script for multi-model PDBs for the Docker container
+# PDBencode script for multi-model PDBs
 # Read PDB structure(s) in mounted (and argument-passed) directory
-# Use this R script by default unless a different script is
-#   mounted and argument-passed
 # Encode all PDB MODEL structure(s) and write SA string(s) as FASTA format
 # Each chain is encoded separately
 #===============================================================================

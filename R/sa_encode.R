@@ -64,35 +64,95 @@ sadata <- setClass(
 }
 
 #_______________________________________________________________________________
-encode = function(pdb.xyz) {
-  sadata_o = new("sadata");
+.putpdb(xyz_l_in) {
+  atom_description
+  fprintf(, "%30s", str->atom[i].description)
+}
+
+#_______________________________________________________________________________
+## encode structure, optionally write out local/global-ly fitted fragments
+encode_xfit = function(pdb.xyz, xfit) {
+  sadata_o = new("sadata")
   
-  sadata_o = .assign_M32K25(sadata_o);
+  sadata_o = .assign_M32K25(sadata_o)
+  
+  ## fit all conformation fragments to all alphabet fragments
+  ## N-3 structure fragments (and 3 coordinates per fragment)
+  nConfFrag = (length(pdb.xyz) / 3) - 3
+  nSAFrag = length(sadata_o@fragment_coordinates)
+  ## for N-3 input structure fragments
+  ## rmsd is a list of lists of all fragment fits:
+  ## outer list: 25 fragments
+  ## inner list: rmsd (one value) and xyz [1:4, 1:3] matrix of fitted fragment
+  rmsd_xyz_l = lapply(1:nConfFrag, function(x) {
+    ## and 25 SA fragments (structural alphabet letters)
+    lapply(1:nSAFrag, function(y) {
+      kabsch_R(pdb.xyz[((3 * x) - 2):((3 * x) + 9)], sadata_o@fragment_coordinates[[y]])
+      #kabsch_C(4, pdb.xyz[((3 * x) - 2):((3 * x) + 9)], sadata_o@fragment_coordinates[[y]])
+    })
+  })
+  
+  #names(rmsd_xyz_l) = as.character(1:nConfFrag)
+
+  ## rmsd matrix: extract rmsd values as vector per fragment from list
+  rmsd_m = sapply(rmsd_xyz_l, function(pos) {
+      mapply(function(x) x$rmsd, pos)
+  })
+  
+  ## vector of minimal rmsd values across rmsd matrix (positions)
+  rmsd_min.v = apply(rmsd_m, 2, min)
+  ## vector of row indices of minimal rmsd values
+  rmsd_min.ix = sapply(1:length(rmsd_min.v), function(z) {
+    which(rmsd_m[ , z] %in% rmsd_min.v[z])
+  })
+  
+  ## fragment string
+  fragstring = sadata_o@fragment_letters[rmsd_min.ix]
+  
+  ## fitted fragments
+  xyz_l <- vector("list", length(rmsd_xyz_l))
+  for (i in seq_along(rmsd_xyz_l)) {
+    xyz_l[[i]] <- rmsd_xyz_l[[i]][[rmsd_min.ix[i]]]$xyz
+  }
+  names(xyz_l) = fragstring
+  
+  ## write multi-model PDB file of fitted fragments
+  .putpdb(xyz_l)
+  
+  # return string of SA fragments
+  return(fragstring)
+}
+
+#_______________________________________________________________________________
+encode = function(pdb.xyz, xfit) {
+  sadata_o = new("sadata")
+  
+  sadata_o = .assign_M32K25(sadata_o)
   
   ## fit all conformation fragments to all alphabet fragments
  	## N-3 structure fragments (and 3 coordinates per fragment)
- 	nConfFrag = (length(pdb.xyz) / 3) - 3;
- 	nSAFrag = length(sadata_o@fragment_coordinates);
+ 	nConfFrag = (length(pdb.xyz) / 3) - 3
+ 	nSAFrag = length(sadata_o@fragment_coordinates)
  	## for N-3 input structure fragments
  	rmsd_m = sapply(1:nConfFrag, function(x) {
     	## and 25 SA fragments (structural alphabet letters)
 		sapply(1:nSAFrag, function(y) {
-			#kabsch_R(pdb.xyz[((3 * x) - 2):((3 * x) + 9)], sadata_o@fragment_coordinates[[y]]);
-			kabsch_C(4, pdb.xyz[((3 * x) - 2):((3 * x) + 9)], sadata_o@fragment_coordinates[[y]]);
-		});
-	});
+			#kabsch_R(pdb.xyz[((3 * x) - 2):((3 * x) + 9)], sadata_o@fragment_coordinates[[y]])
+			kabsch_C(4, pdb.xyz[((3 * x) - 2):((3 * x) + 9)], sadata_o@fragment_coordinates[[y]])
+		})
+	})
 
 	## vector of minimal rmsd values
-	rmsd_min.v = apply(rmsd_m, 2, min);
+	rmsd_min.v = apply(rmsd_m, 2, min)
 	## vector of row indices of minimal rmsd values
 	rmsd_min.ix = sapply(1:length(rmsd_min.v), function(z) {
-		which(rmsd_m[ , z] %in% rmsd_min.v[z]);
+		which(rmsd_m[ , z] %in% rmsd_min.v[z])
 	})
 
 	## fragment string
-	fragstring = sadata_o@fragment_letters[rmsd_min.ix];
+	fragstring = sadata_o@fragment_letters[rmsd_min.ix]
 	# return string of SA fragments
-	return(fragstring);
+	return(fragstring)
 }
 
 #===============================================================================
