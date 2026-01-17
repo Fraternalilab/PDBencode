@@ -1,5 +1,9 @@
 
+## Linux
 #PKG_CPPFLAGS = -I/usr/include -I/usr/include/gsl
+#PKG_LDFLAGS = /usr/local/lib
+
+## Mac
 PKG_CPPFLAGS = -I/usr/include -I/opt/homebrew/opt/gsl/include -I/opt/homebrew/opt/openblas/include
 PKG_LDFLAGS = /usr/local/lib
 GSL_LIBS = /opt/homebrew/opt/gsl/lib
