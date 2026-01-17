@@ -64,9 +64,26 @@ sadata <- setClass(
 }
 
 #_______________________________________________________________________________
-.putpdb(xyz_l_in) {
-  atom_description
-  fprintf(, "%30s", str->atom[i].description)
+## write out transformed (fitted) fragments as multi-model PDB structure
+.format_entry = function(frag_letter, frag_atomNr,
+                         x_in, y_in, z_in) {
+  
+  atom_description = "ATOM      1  CA  GLY "
+  
+  entryf = sprintf("%18s%1s%4d    %8.3f%8.3f%8.3f",
+             atom_description, frag_letter, frag_atomNr,
+             x_in, y_in, z_in)
+  
+  return(entryf)
+}
+
+.putpdb = function(fragstring, xyz_l_in) {
+  
+  
+  .format_entry(frag_letter = "A", frag_atomNr = 1,
+                x_in = 1.00, y_in = 2.00, z_in = 3.00)
+  
+  
 }
 
 #_______________________________________________________________________________
@@ -113,11 +130,11 @@ encode_xfit = function(pdb.xyz, xfit) {
   xyz_l <- vector("list", length(rmsd_xyz_l))
   for (i in seq_along(rmsd_xyz_l)) {
     xyz_l[[i]] <- rmsd_xyz_l[[i]][[rmsd_min.ix[i]]]$xyz
-  }
+  }/
   names(xyz_l) = fragstring
   
   ## write multi-model PDB file of fitted fragments
-  .putpdb(xyz_l)
+  .putpdb(fragstring, xyz_l)
   
   # return string of SA fragments
   return(fragstring)
