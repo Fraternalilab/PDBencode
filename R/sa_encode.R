@@ -93,6 +93,8 @@ sadata <- setClass(
     pdbOut[((i-1)*5) + (j + 1)] = "TER"
   }
   pdbOut[((i-1)*5) + (j + 1) + 1] = "END"
+  
+  writeLines(pdbOut, "fragment_fit.pdb")
 }
 
 #_______________________________________________________________________________
