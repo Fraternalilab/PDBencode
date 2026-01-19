@@ -1,7 +1,7 @@
 # Linux
 PKG_CPPFLAGS = -I/usr/include -I/usr/include/gsl
-PKG_LDFLAGS = /usr/local/lib
-PKG_LIBS= -L$(PKG_LDFLAGS) -lgsl lgslblas -lm -Wl,$(PKG_LDFLAGS),$(FLIBS)
+PKG_LDFLAGS = -L/usr/local/lib
+PKG_LIBS= $(PKG_LDFLAGS) -lgsl -lgslcblas -lm
 
 ## Mac
 #PKG_CPPFLAGS = -I/usr/include -I/opt/homebrew/opt/gsl/include -I/opt/homebrew/opt/openblas/include
