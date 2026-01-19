@@ -94,6 +94,9 @@ for (i in 1:length(strs)) {
 
 		#_______________________________________________________________________________
 		## encode structure, fit output selectable
+		## xfit = 0 : no fragment output
+		## xfit = 1 : localfit output
+		## xfit = 2 : globalfit output
 		if (opt$localfit == TRUE) {
 		  sa_char.v = encode(str_bio3d_ca$xyz, xfit = 1)
 		} else if (opt$globalfit == TRUE) {
