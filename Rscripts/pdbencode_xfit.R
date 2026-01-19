@@ -46,13 +46,6 @@ if (! is.null(opt$script)) {
   scriptDir = opt$script
 }
 
-## in case of ambiguity, run with '--localfit'
-if (opt$localfit == TRUE & opt$globalfit == TRUE) {
-  opt$globalfit == FALSE
-  print("The fit options '--localfit' and '--globalfit' are mutually exclusive!")
-  print("Overwrote selected options; running program with '--localfit'.")
-}
-
 #_______________________________________________________________________________
 ## input structure(s)
 if (opt$cif == FALSE) {
@@ -94,9 +87,13 @@ for (i in 1:length(strs)) {
 
 		#_______________________________________________________________________________
 		## encode structure, fit output selectable
+<<<<<<< HEAD
 		## xfit = 0 : no fragment output
 		## xfit = 1 : localfit output
 		## xfit = 2 : globalfit output
+=======
+		## 'globalfit' includes 'localfit' followed by selection
+>>>>>>> a4645ad9e1a86446c50a14ff05a72adbe3d7cfe9
 		if (opt$localfit == TRUE) {
 		  sa_char.v = encode(str_bio3d_ca$xyz, xfit = 1)
 		} else if (opt$globalfit == TRUE) {

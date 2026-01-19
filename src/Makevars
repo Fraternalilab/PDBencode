@@ -1,18 +1,13 @@
-
-## on Linux
+# Linux
 PKG_CPPFLAGS = -I/usr/include -I/usr/include/gsl
-## on Mac
-#PKG_CPPFLAGS = -I/usr/include -I/opt/homebrew/opt/gsl/include -I/opt/homebrew/opt/openblas/include
-
 PKG_LDFLAGS = /usr/local/lib
+PKG_LIBS= -L$(PKG_LDFLAGS) -lgsl lgslblas -lm -Wl,$(PKG_LDFLAGS),$(FLIBS)
 
-## on Mac
+## Mac
+#PKG_CPPFLAGS = -I/usr/include -I/opt/homebrew/opt/gsl/include -I/opt/homebrew/opt/openblas/include
+#PKG_LDFLAGS = /usr/local/lib
 #GSL_LIBS = /opt/homebrew/opt/gsl/lib
 #OPENBLAS_libs = /opt/homebrew/opt/openblas/lib
 #FLIBS = /opt/homebrew/opt/gfortran/lib
-
-## on Linux
-PKG_LIBS= -L$(PKG_LDFLAGS) -lgsl lgslblas -lm -Wl,$(PKG_LDFLAGS),$(FLIBS)
-## on Mac
 #PKG_LIBS= -L$(PKG_LDFLAGS) -lgsl -lm -Wl,-rpath,$(PKG_LDFLAGS),$(GSL_LIBS),$(OPENBLAS_LIBS),$(FLIBS)
 

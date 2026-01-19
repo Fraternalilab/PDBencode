@@ -36,10 +36,13 @@ kabsch_R = function(Q, P) {
 	## center objects
 	# center Q.m
 	Qc = scale(Q.m, center = TRUE, scale = FALSE)
-
 	# center P
 	Pc = scale(P.m, center = TRUE, scale = FALSE)
-
+	
+	# save original centroids
+	cQ <- attr(Qc, "scaled:center")
+	cP <- attr(Pc, "scaled:center")
+	
 	## determine the cross-covariance matrix
 	C = crossprod(Pc, Qc)
 
@@ -64,8 +67,12 @@ kabsch_R = function(Q, P) {
 
 	rmsd = sqrt(sum(apply(Dsr.sq, 1, sum)) / dim(Dsr.sq)[1]);
 
+	## shift P to position of Q
+	## P is centred, therefore it is just an addition of Q's orogonal centroid
+	Prot_in_Qframe = sweep(Prot, 2, cQ, "+")
+
 	## spit out the optimal fit RMSD between Q and P
-	return(list(rmsd = rmsd, xyz = Prot))
+	return(list(rmsd = rmsd, xyz = Prot_in_Qframe))
 }
 
 #===============================================================================
