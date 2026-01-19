@@ -1,0 +1,1271 @@
+ATOM      1  CA  GLY E   1      24.437   3.054 -18.679
+ATOM      1  CA  GLY E   2      21.099   1.834 -17.438
+ATOM      1  CA  GLY E   3      20.325  -1.882 -17.955
+ATOM      1  CA  GLY E   4      17.749  -4.451 -16.825
+TER
+ATOM      1  CA  GLY G   1      21.127   1.821 -17.283
+ATOM      1  CA  GLY G   2      20.448  -1.850 -18.004
+ATOM      1  CA  GLY G   3      17.774  -4.375 -16.963
+ATOM      1  CA  GLY G   4      18.745  -8.004 -16.637
+TER
+ATOM      1  CA  GLY M   1      20.526  -2.075 -17.897
+ATOM      1  CA  GLY M   2      17.683  -4.408 -16.947
+ATOM      1  CA  GLY M   3      18.937  -8.012 -16.817
+ATOM      1  CA  GLY M   4      15.713  -9.860 -16.033
+TER
+ATOM      1  CA  GLY M   1      17.697  -4.341 -16.980
+ATOM      1  CA  GLY M   2      18.717  -7.972 -16.517
+ATOM      1  CA  GLY M   3      15.622 -10.139 -15.967
+ATOM      1  CA  GLY M   4      17.223 -13.533 -15.387
+TER
+ATOM      1  CA  GLY Q   1      18.799  -8.391 -16.814
+ATOM      1  CA  GLY Q   2      15.521 -10.217 -16.005
+ATOM      1  CA  GLY Q   3      17.146 -13.525 -15.023
+ATOM      1  CA  GLY Q   4      15.569 -16.736 -16.340
+TER
+ATOM      1  CA  GLY E   1      15.568 -10.483 -16.099
+ATOM      1  CA  GLY E   2      17.243 -13.708 -15.118
+ATOM      1  CA  GLY E   3      15.569 -16.945 -16.301
+ATOM      1  CA  GLY E   4      16.359 -20.667 -16.495
+TER
+ATOM      1  CA  GLY I   1      17.153 -13.842 -15.148
+ATOM      1  CA  GLY I   2      15.339 -17.002 -16.024
+ATOM      1  CA  GLY I   3      16.465 -20.513 -16.799
+ATOM      1  CA  GLY I   4      15.508 -21.934 -20.212
+TER
+ATOM      1  CA  GLY J   1      15.608 -17.014 -15.962
+ATOM      1  CA  GLY J   2      16.165 -20.736 -16.758
+ATOM      1  CA  GLY J   3      15.459 -21.793 -20.338
+ATOM      1  CA  GLY J   4      13.542 -24.863 -19.154
+TER
+ATOM      1  CA  GLY N   1      16.407 -20.843 -16.681
+ATOM      1  CA  GLY N   2      15.646 -21.792 -20.287
+ATOM      1  CA  GLY N   3      13.280 -24.508 -19.082
+ATOM      1  CA  GLY N   4      11.345 -25.389 -15.930
+TER
+ATOM      1  CA  GLY B   1      15.437 -21.745 -20.224
+ATOM      1  CA  GLY B   2      13.359 -24.746 -19.152
+ATOM      1  CA  GLY B   3      11.279 -25.260 -16.047
+ATOM      1  CA  GLY B   4       8.997 -27.985 -14.738
+TER
+ATOM      1  CA  GLY I   1      13.305 -24.839 -19.059
+ATOM      1  CA  GLY I   2      11.152 -25.261 -16.021
+ATOM      1  CA  GLY I   3       8.960 -28.054 -14.760
+ATOM      1  CA  GLY I   4       5.260 -27.262 -14.238
+TER
+ATOM      1  CA  GLY F   1      11.037 -25.267 -15.822
+ATOM      1  CA  GLY F   2       8.820 -28.073 -14.571
+ATOM      1  CA  GLY F   3       5.117 -27.254 -14.313
+ATOM      1  CA  GLY F   4       3.792 -27.485 -10.740
+TER
+ATOM      1  CA  GLY X   1       8.715 -27.750 -14.160
+ATOM      1  CA  GLY X   2       4.923 -27.529 -14.191
+ATOM      1  CA  GLY X   3       3.540 -27.354 -10.719
+ATOM      1  CA  GLY X   4       6.814 -26.073  -9.149
+TER
+ATOM      1  CA  GLY H   1       4.692 -27.780 -14.405
+ATOM      1  CA  GLY H   2       3.939 -26.886 -10.764
+ATOM      1  CA  GLY H   3       6.738 -25.903  -8.439
+ATOM      1  CA  GLY H   4       7.461 -22.162  -8.344
+TER
+ATOM      1  CA  GLY I   1       3.603 -27.468 -10.208
+ATOM      1  CA  GLY I   2       6.712 -25.568  -9.333
+ATOM      1  CA  GLY I   3       7.392 -21.972  -8.436
+ATOM      1  CA  GLY I   4       9.809 -20.046 -10.678
+TER
+ATOM      1  CA  GLY G   1       6.689 -25.685  -8.679
+ATOM      1  CA  GLY G   2       7.691 -22.019  -8.568
+ATOM      1  CA  GLY G   3       9.680 -19.676 -10.839
+ATOM      1  CA  GLY G   4      11.649 -16.872  -9.262
+TER
+ATOM      1  CA  GLY A   1       7.825 -22.111  -8.398
+ATOM      1  CA  GLY A   2       9.629 -19.796 -10.784
+ATOM      1  CA  GLY A   3      11.497 -16.708  -9.601
+ATOM      1  CA  GLY A   4      12.470 -14.028 -12.132
+TER
+ATOM      1  CA  GLY M   1       9.589 -19.564 -10.667
+ATOM      1  CA  GLY M   2      11.895 -16.758  -9.551
+ATOM      1  CA  GLY M   3      12.396 -14.266 -12.401
+ATOM      1  CA  GLY M   4      14.870 -11.861 -10.816
+TER
+ATOM      1  CA  GLY E   1      11.658 -16.943  -9.346
+ATOM      1  CA  GLY E   2      12.248 -14.341 -12.001
+ATOM      1  CA  GLY E   3      14.775 -11.582 -11.174
+ATOM      1  CA  GLY E   4      15.914  -8.231 -12.584
+TER
+ATOM      1  CA  GLY A   1      12.141 -14.125 -12.292
+ATOM      1  CA  GLY A   2      15.004 -12.009 -11.014
+ATOM      1  CA  GLY A   3      15.800  -8.583 -12.446
+ATOM      1  CA  GLY A   4      19.186  -6.990 -11.713
+TER
+ATOM      1  CA  GLY M   1      15.053 -11.843 -11.159
+ATOM      1  CA  GLY M   2      15.669  -8.296 -12.372
+ATOM      1  CA  GLY M   3      19.245  -7.237 -11.554
+ATOM      1  CA  GLY M   4      19.223  -3.646 -12.788
+TER
+ATOM      1  CA  GLY A   1      15.571  -8.733 -12.288
+ATOM      1  CA  GLY A   2      18.936  -7.034 -11.975
+ATOM      1  CA  GLY A   3      19.437  -3.351 -12.756
+ATOM      1  CA  GLY A   4      22.970  -2.012 -13.272
+TER
+ATOM      1  CA  GLY L   1      19.360  -7.009 -11.644
+ATOM      1  CA  GLY L   2      19.295  -3.350 -12.756
+ATOM      1  CA  GLY L   3      22.846  -2.131 -13.448
+ATOM      1  CA  GLY L   4      21.745   1.488 -13.009
+TER
+ATOM      1  CA  GLY N   1      19.460  -3.408 -12.678
+ATOM      1  CA  GLY N   2      22.889  -2.049 -13.615
+ATOM      1  CA  GLY N   3      21.703   1.482 -12.869
+ATOM      1  CA  GLY N   4      18.919   3.185 -10.918
+TER
+ATOM      1  CA  GLY H   1      22.670  -1.843 -13.531
+ATOM      1  CA  GLY H   2      21.989   1.771 -12.478
+ATOM      1  CA  GLY H   3      18.592   2.753 -11.173
+ATOM      1  CA  GLY H   4      18.212   2.450  -7.393
+TER
+ATOM      1  CA  GLY I   1      21.919   1.887 -12.956
+ATOM      1  CA  GLY I   2      18.927   2.906 -10.945
+ATOM      1  CA  GLY I   3      17.816   2.217  -7.411
+ATOM      1  CA  GLY I   4      14.450   0.472  -6.954
+TER
+ATOM      1  CA  GLY F   1      19.058   2.906 -10.874
+ATOM      1  CA  GLY F   2      17.853   2.303  -7.333
+ATOM      1  CA  GLY F   3      14.468   0.604  -7.015
+ATOM      1  CA  GLY F   4      11.875   2.782  -5.251
+TER
+ATOM      1  CA  GLY V   1      17.590   2.457  -6.986
+ATOM      1  CA  GLY V   2      14.317   0.467  -7.286
+ATOM      1  CA  GLY V   3      12.393   2.915  -5.270
+ATOM      1  CA  GLY V   4      12.775   5.480  -8.132
+TER
+ATOM      1  CA  GLY T   1      14.611   0.460  -6.899
+ATOM      1  CA  GLY T   2      11.811   2.827  -5.876
+ATOM      1  CA  GLY T   3      13.107   5.644  -8.097
+ATOM      1  CA  GLY T   4      11.396   4.240 -11.190
+TER
+ATOM      1  CA  GLY X   1      11.954   2.845  -5.526
+ATOM      1  CA  GLY X   2      12.615   5.503  -8.159
+ATOM      1  CA  GLY X   3      11.713   4.287 -11.580
+ATOM      1  CA  GLY X   4       9.312   1.556 -10.312
+TER
+ATOM      1  CA  GLY Q   1      12.595   5.399  -8.127
+ATOM      1  CA  GLY Q   2      11.640   4.268 -11.668
+ATOM      1  CA  GLY Q   3       9.297   1.466 -10.567
+ATOM      1  CA  GLY Q   4       9.552  -1.876 -12.384
+TER
+ATOM      1  CA  GLY F   1      11.502   4.073 -11.664
+ATOM      1  CA  GLY F   2       9.108   1.314 -10.659
+ATOM      1  CA  GLY F   3       9.623  -2.025 -12.402
+ATOM      1  CA  GLY F   4       6.608  -3.090 -14.490
+TER
+ATOM      1  CA  GLY A   1       9.211   1.335 -10.677
+ATOM      1  CA  GLY A   2       9.399  -1.994 -12.463
+ATOM      1  CA  GLY A   3       6.516  -3.365 -14.522
+ATOM      1  CA  GLY A   4       6.496  -7.054 -15.488
+TER
+ATOM      1  CA  GLY C   1       9.434  -2.114 -12.669
+ATOM      1  CA  GLY C   2       6.504  -3.468 -14.664
+ATOM      1  CA  GLY C   3       6.438  -7.220 -15.319
+ATOM      1  CA  GLY C   4       5.118  -7.970 -18.811
+TER
+ATOM      1  CA  GLY B   1       6.566  -3.378 -14.476
+ATOM      1  CA  GLY B   2       6.345  -6.996 -15.630
+ATOM      1  CA  GLY B   3       5.032  -8.425 -18.864
+ATOM      1  CA  GLY B   4       4.800 -11.878 -20.402
+TER
+ATOM      1  CA  GLY G   1       6.458  -7.050 -15.681
+ATOM      1  CA  GLY G   2       4.982  -8.491 -18.875
+ATOM      1  CA  GLY G   3       4.665 -11.987 -20.386
+ATOM      1  CA  GLY G   4       4.718 -12.346 -24.140
+TER
+ATOM      1  CA  GLY A   1       4.880  -8.280 -19.066
+ATOM      1  CA  GLY A   2       4.975 -11.850 -20.313
+ATOM      1  CA  GLY A   3       4.633 -12.731 -23.991
+ATOM      1  CA  GLY A   4       3.844 -16.326 -24.987
+TER
+ATOM      1  CA  GLY E   1       4.611 -11.738 -20.406
+ATOM      1  CA  GLY E   2       4.662 -12.679 -24.050
+ATOM      1  CA  GLY E   3       4.324 -16.406 -24.870
+ATOM      1  CA  GLY E   4       4.709 -18.720 -27.871
+TER
+ATOM      1  CA  GLY H   1       4.753 -12.687 -24.238
+ATOM      1  CA  GLY H   2       3.900 -16.397 -24.614
+ATOM      1  CA  GLY H   3       4.831 -18.243 -27.766
+ATOM      1  CA  GLY H   4       2.140 -18.199 -30.465
+TER
+ATOM      1  CA  GLY X   1       4.181 -16.358 -24.685
+ATOM      1  CA  GLY X   2       4.629 -18.634 -27.693
+ATOM      1  CA  GLY X   3       2.193 -17.801 -30.408
+ATOM      1  CA  GLY X   4      -0.302 -16.051 -28.054
+TER
+ATOM      1  CA  GLY H   1       5.184 -19.198 -28.033
+ATOM      1  CA  GLY H   2       2.270 -17.549 -29.882
+ATOM      1  CA  GLY H   3      -0.420 -15.748 -27.950
+ATOM      1  CA  GLY H   4       0.254 -12.037 -27.404
+TER
+ATOM      1  CA  GLY D   1       1.808 -18.350 -30.512
+ATOM      1  CA  GLY D   2       0.203 -15.560 -27.693
+ATOM      1  CA  GLY D   3       0.662 -11.753 -27.428
+ATOM      1  CA  GLY D   4       1.036  -9.713 -24.238
+TER
+ATOM      1  CA  GLY H   1       0.084 -15.583 -27.726
+ATOM      1  CA  GLY H   2      -0.111 -11.796 -27.227
+ATOM      1  CA  GLY H   3       1.720 -10.168 -24.362
+ATOM      1  CA  GLY H   4      -0.326  -9.865 -21.160
+TER
+ATOM      1  CA  GLY A   1       0.736 -12.141 -27.069
+ATOM      1  CA  GLY A   2       1.144  -9.468 -24.424
+ATOM      1  CA  GLY A   3      -0.372  -9.789 -20.956
+ATOM      1  CA  GLY A   4       0.856  -7.504 -18.161
+TER
+ATOM      1  CA  GLY C   1       1.286  -9.389 -24.388
+ATOM      1  CA  GLY C   2      -0.147 -10.008 -20.929
+ATOM      1  CA  GLY C   3       0.812  -7.542 -18.188
+ATOM      1  CA  GLY C   4       1.332  -9.330 -14.867
+TER
+ATOM      1  CA  GLY M   1      -0.208  -9.835 -20.903
+ATOM      1  CA  GLY M   2       0.664  -7.478 -18.054
+ATOM      1  CA  GLY M   3       1.443  -9.476 -14.896
+ATOM      1  CA  GLY M   4       2.035  -6.670 -12.406
+TER
+ATOM      1  CA  GLY H   1       0.517  -7.643 -18.290
+ATOM      1  CA  GLY H   2       2.016  -8.738 -14.946
+ATOM      1  CA  GLY H   3       1.439  -6.672 -11.846
+ATOM      1  CA  GLY H   4       4.089  -4.005 -11.220
+TER
+ATOM      1  CA  GLY G   1       1.550  -9.097 -14.903
+ATOM      1  CA  GLY G   2       2.062  -6.857 -11.873
+ATOM      1  CA  GLY G   3       4.000  -3.640 -11.169
+ATOM      1  CA  GLY G   4       5.396  -3.091  -7.709
+TER
+ATOM      1  CA  GLY G   1       2.023  -6.841 -12.289
+ATOM      1  CA  GLY G   2       3.903  -3.776 -11.049
+ATOM      1  CA  GLY G   3       5.430  -2.688  -7.720
+ATOM      1  CA  GLY G   4       5.495   0.987  -6.876
+TER
+ATOM      1  CA  GLY Q   1       4.081  -3.364 -10.821
+ATOM      1  CA  GLY Q   2       5.775  -2.757  -7.431
+ATOM      1  CA  GLY Q   3       4.868   0.940  -7.194
+ATOM      1  CA  GLY Q   4       7.578   3.361  -6.041
+TER
+ATOM      1  CA  GLY H   1       5.822  -2.792  -7.580
+ATOM      1  CA  GLY H   2       5.023   0.938  -7.302
+ATOM      1  CA  GLY H   3       7.495   3.288  -5.697
+ATOM      1  CA  GLY H   4       7.015   3.749  -1.944
+TER
+ATOM      1  CA  GLY X   1       5.323   0.918  -7.367
+ATOM      1  CA  GLY X   2       7.358   3.645  -5.677
+ATOM      1  CA  GLY X   3       7.025   3.483  -1.954
+ATOM      1  CA  GLY X   4       5.949  -0.214  -1.902
+TER
+ATOM      1  CA  GLY H   1       8.035   4.384  -5.756
+ATOM      1  CA  GLY H   2       6.550   3.160  -2.451
+ATOM      1  CA  GLY H   3       5.929  -0.517  -1.902
+ATOM      1  CA  GLY H   4       2.458  -1.698  -2.947
+TER
+ATOM      1  CA  GLY D   1       7.160   3.748  -1.747
+ATOM      1  CA  GLY D   2       5.833  -0.311  -2.027
+ATOM      1  CA  GLY D   3       2.602  -1.772  -3.508
+ATOM      1  CA  GLY D   4       2.257  -4.991  -5.508
+TER
+ATOM      1  CA  GLY C   1       5.917  -0.451  -2.086
+ATOM      1  CA  GLY C   2       2.486  -1.625  -3.205
+ATOM      1  CA  GLY C   3       2.356  -4.659  -5.506
+ATOM      1  CA  GLY C   4      -0.377  -4.265  -8.127
+TER
+ATOM      1  CA  GLY A   1       2.799  -1.738  -3.151
+ATOM      1  CA  GLY A   2       2.178  -4.519  -5.639
+ATOM      1  CA  GLY A   3      -0.503  -4.290  -8.319
+ATOM      1  CA  GLY A   4      -1.613  -7.457 -10.130
+TER
+ATOM      1  CA  GLY E   1       2.259  -4.705  -5.648
+ATOM      1  CA  GLY E   2      -0.495  -4.392  -8.194
+ATOM      1  CA  GLY E   3      -1.510  -7.596 -10.034
+ATOM      1  CA  GLY E   4      -3.627  -8.625 -13.030
+TER
+ATOM      1  CA  GLY I   1      -0.517  -4.292  -8.484
+ATOM      1  CA  GLY I   2      -1.709  -7.567  -9.859
+ATOM      1  CA  GLY I   3      -3.721  -8.532 -12.895
+ATOM      1  CA  GLY I   4      -6.993 -10.406 -12.292
+TER
+ATOM      1  CA  GLY J   1      -1.694  -7.281 -10.223
+ATOM      1  CA  GLY J   2      -3.615  -9.066 -13.039
+ATOM      1  CA  GLY J   3      -7.075 -10.347 -12.134
+ATOM      1  CA  GLY J   4      -6.387 -13.685 -13.833
+TER
+ATOM      1  CA  GLY U   1      -3.710  -8.946 -13.186
+ATOM      1  CA  GLY U   2      -7.018 -10.463 -12.049
+ATOM      1  CA  GLY U   3      -6.288 -13.695 -13.933
+ATOM      1  CA  GLY U   4      -2.810 -13.890 -12.347
+TER
+ATOM      1  CA  GLY W   1      -7.187 -10.476 -12.125
+ATOM      1  CA  GLY W   2      -6.297 -13.694 -13.993
+ATOM      1  CA  GLY W   3      -2.852 -14.002 -12.342
+ATOM      1  CA  GLY W   4      -3.281 -12.533  -8.864
+TER
+ATOM      1  CA  GLY R   1      -6.274 -13.857 -13.583
+ATOM      1  CA  GLY R   2      -2.631 -13.938 -12.410
+ATOM      1  CA  GLY R   3      -3.410 -12.564  -8.926
+ATOM      1  CA  GLY R   4      -2.671 -15.107  -6.132
+TER
+ATOM      1  CA  GLY X   1      -2.525 -14.057 -12.218
+ATOM      1  CA  GLY X   2      -3.478 -12.656  -8.818
+ATOM      1  CA  GLY X   3      -2.544 -15.009  -6.064
+ATOM      1  CA  GLY X   4       0.120 -16.864  -8.136
+TER
+ATOM      1  CA  GLY V   1      -3.317 -12.701  -8.861
+ATOM      1  CA  GLY V   2      -2.387 -15.056  -5.971
+ATOM      1  CA  GLY V   3       0.114 -16.901  -7.995
+ATOM      1  CA  GLY V   4       2.329 -13.738  -8.031
+TER
+ATOM      1  CA  GLY R   1      -2.868 -15.284  -6.350
+ATOM      1  CA  GLY R   2       0.466 -16.782  -7.485
+ATOM      1  CA  GLY R   3       2.201 -13.394  -7.863
+ATOM      1  CA  GLY R   4       5.105 -12.932  -5.379
+TER
+ATOM      1  CA  GLY A   1       0.438 -16.893  -7.964
+ATOM      1  CA  GLY A   2       2.394 -13.656  -8.029
+ATOM      1  CA  GLY A   3       4.613 -12.562  -5.148
+ATOM      1  CA  GLY A   4       7.180  -9.798  -5.710
+TER
+ATOM      1  CA  GLY A   1       2.496 -13.749  -8.038
+ATOM      1  CA  GLY A   2       4.743 -12.600  -5.221
+ATOM      1  CA  GLY A   3       7.171  -9.705  -5.607
+ATOM      1  CA  GLY A   4       9.961  -9.251  -3.047
+TER
+ATOM      1  CA  GLY A   1       4.738 -12.610  -5.245
+ATOM      1  CA  GLY A   2       7.144  -9.703  -5.491
+ATOM      1  CA  GLY A   3       9.971  -9.185  -3.007
+ATOM      1  CA  GLY A   4      12.811  -6.793  -3.879
+TER
+ATOM      1  CA  GLY E   1       7.210  -9.506  -5.633
+ATOM      1  CA  GLY E   2       9.963  -9.323  -3.073
+ATOM      1  CA  GLY E   3      12.852  -6.920  -3.822
+ATOM      1  CA  GLY E   4      16.334  -6.131  -2.492
+TER
+ATOM      1  CA  GLY G   1      10.015  -9.384  -2.968
+ATOM      1  CA  GLY G   2      12.716  -6.880  -3.911
+ATOM      1  CA  GLY G   3      16.183  -5.989  -2.572
+ATOM      1  CA  GLY G   4      17.374  -2.423  -2.871
+TER
+ATOM      1  CA  GLY M   1      12.772  -6.786  -3.778
+ATOM      1  CA  GLY M   2      16.322  -6.188  -2.564
+ATOM      1  CA  GLY M   3      17.229  -2.498  -2.941
+ATOM      1  CA  GLY M   4      20.847  -2.533  -1.789
+TER
+ATOM      1  CA  GLY Y   1      16.641  -6.121  -2.486
+ATOM      1  CA  GLY Y   2      17.123  -2.397  -3.000
+ATOM      1  CA  GLY Y   3      20.702  -2.769  -1.825
+ATOM      1  CA  GLY Y   4      21.598  -5.477  -4.326
+TER
+ATOM      1  CA  GLY U   1      17.137  -2.549  -2.892
+ATOM      1  CA  GLY U   2      20.845  -2.555  -2.000
+ATOM      1  CA  GLY U   3      21.489  -5.520  -4.307
+ATOM      1  CA  GLY U   4      19.641  -3.762  -7.161
+TER
+ATOM      1  CA  GLY O   1      20.888  -2.676  -1.927
+ATOM      1  CA  GLY O   2      21.517  -5.520  -4.386
+ATOM      1  CA  GLY O   3      19.438  -3.836  -7.109
+ATOM      1  CA  GLY O   4      17.364  -6.973  -7.577
+TER
+ATOM      1  CA  GLY Q   1      21.563  -5.410  -4.429
+ATOM      1  CA  GLY Q   2      19.259  -3.992  -7.151
+ATOM      1  CA  GLY Q   3      17.329  -7.227  -7.755
+ATOM      1  CA  GLY Q   4      13.538  -6.994  -8.087
+TER
+ATOM      1  CA  GLY G   1      19.421  -3.894  -7.023
+ATOM      1  CA  GLY G   2      17.219  -6.863  -7.915
+ATOM      1  CA  GLY G   3      13.458  -7.453  -8.248
+ATOM      1  CA  GLY G   4      12.085 -10.868  -7.426
+TER
+ATOM      1  CA  GLY A   1      17.168  -6.733  -7.567
+ATOM      1  CA  GLY A   2      13.540  -7.558  -8.248
+ATOM      1  CA  GLY A   3      12.092 -11.017  -7.647
+ATOM      1  CA  GLY A   4       8.733 -11.935  -9.201
+TER
+ATOM      1  CA  GLY M   1      13.210  -7.465  -8.377
+ATOM      1  CA  GLY M   2      12.129 -10.968  -7.379
+ATOM      1  CA  GLY M   3       8.872 -11.885  -9.149
+ATOM      1  CA  GLY M   4       8.194 -15.311  -7.659
+TER
+ATOM      1  CA  GLY M   1      11.981 -10.695  -7.551
+ATOM      1  CA  GLY M   2       9.042 -12.360  -9.290
+ATOM      1  CA  GLY M   3       8.174 -15.640  -7.538
+ATOM      1  CA  GLY M   4       5.376 -16.917  -9.766
+TER
+ATOM      1  CA  GLY A   1       9.060 -11.862  -9.147
+ATOM      1  CA  GLY A   2       7.956 -15.219  -7.800
+ATOM      1  CA  GLY A   3       5.446 -17.416  -9.618
+ATOM      1  CA  GLY A   4       3.769 -20.283  -7.745
+TER
+ATOM      1  CA  GLY E   1       8.051 -15.312  -7.536
+ATOM      1  CA  GLY E   2       5.580 -17.214  -9.645
+ATOM      1  CA  GLY E   3       3.858 -20.212  -7.994
+ATOM      1  CA  GLY E   4       1.679 -23.170  -9.003
+TER
+ATOM      1  CA  GLY X   1       5.234 -17.917 -10.210
+ATOM      1  CA  GLY X   2       3.790 -20.214  -7.551
+ATOM      1  CA  GLY X   3       1.819 -23.001  -9.082
+ATOM      1  CA  GLY X   4       3.557 -22.759 -12.510
+TER
+ATOM      1  CA  GLY Q   1       3.781 -20.156  -7.982
+ATOM      1  CA  GLY Q   2       1.770 -23.223  -9.116
+ATOM      1  CA  GLY Q   3       3.309 -23.434 -12.600
+ATOM      1  CA  GLY Q   4       0.963 -24.061 -15.539
+TER
+ATOM      1  CA  GLY A   1       1.933 -22.965  -9.255
+ATOM      1  CA  GLY A   2       3.118 -23.686 -12.773
+ATOM      1  CA  GLY A   3       0.711 -24.320 -15.642
+ATOM      1  CA  GLY A   4       2.011 -25.902 -18.859
+TER
+ATOM      1  CA  GLY J   1       3.268 -23.644 -12.911
+ATOM      1  CA  GLY J   2       0.794 -23.961 -15.840
+ATOM      1  CA  GLY J   3       2.002 -25.981 -18.822
+ATOM      1  CA  GLY J   4       0.730 -23.336 -21.249
+TER
+ATOM      1  CA  GLY Y   1       0.989 -24.033 -15.997
+ATOM      1  CA  GLY Y   2       1.809 -26.131 -19.045
+ATOM      1  CA  GLY Y   3       0.808 -23.212 -21.237
+ATOM      1  CA  GLY Y   4       3.143 -20.727 -19.574
+TER
+ATOM      1  CA  GLY P   1       1.774 -25.969 -18.999
+ATOM      1  CA  GLY P   2       0.901 -23.186 -21.450
+ATOM      1  CA  GLY P   3       3.279 -20.767 -19.734
+ATOM      1  CA  GLY P   4       6.013 -20.887 -22.366
+TER
+ATOM      1  CA  GLY Q   1       0.881 -23.205 -21.448
+ATOM      1  CA  GLY Q   2       3.185 -20.717 -19.650
+ATOM      1  CA  GLY Q   3       5.912 -20.709 -22.318
+ATOM      1  CA  GLY Q   4       7.395 -17.346 -23.328
+TER
+ATOM      1  CA  GLY Q   1       3.465 -20.522 -19.980
+ATOM      1  CA  GLY Q   2       6.595 -20.621 -22.200
+ATOM      1  CA  GLY Q   3       6.428 -16.966 -23.277
+ATOM      1  CA  GLY Q   4       9.676 -14.968 -23.280
+TER
+ATOM      1  CA  GLY I   1       6.451 -20.945 -22.769
+ATOM      1  CA  GLY I   2       6.690 -17.215 -23.021
+ATOM      1  CA  GLY I   3       9.569 -14.786 -22.952
+ATOM      1  CA  GLY I   4       9.541 -12.130 -20.208
+TER
+ATOM      1  CA  GLY C   1       7.171 -17.252 -23.482
+ATOM      1  CA  GLY C   2       9.476 -14.259 -23.118
+ATOM      1  CA  GLY C   3       9.601 -12.570 -19.705
+ATOM      1  CA  GLY C   4       9.891  -8.791 -20.065
+TER
+ATOM      1  CA  GLY E   1       9.543 -14.157 -23.372
+ATOM      1  CA  GLY E   2       9.346 -12.589 -19.957
+ATOM      1  CA  GLY E   3      10.127  -8.845 -19.735
+ATOM      1  CA  GLY E   4      10.787  -6.215 -17.059
+TER
+ATOM      1  CA  GLY G   1       9.216 -12.453 -19.880
+ATOM      1  CA  GLY G   2      10.210  -8.784 -19.813
+ATOM      1  CA  GLY G   3      10.879  -6.199 -17.078
+ATOM      1  CA  GLY G   4      10.074  -2.581 -17.775
+TER
+ATOM      1  CA  GLY E   1       9.937  -8.672 -19.770
+ATOM      1  CA  GLY E   2      10.866  -6.269 -17.025
+ATOM      1  CA  GLY E   3      10.397  -2.541 -17.772
+ATOM      1  CA  GLY E   4      11.340   0.821 -16.248
+TER
+ATOM      1  CA  GLY G   1      10.866  -6.155 -17.114
+ATOM      1  CA  GLY G   2      10.121  -2.456 -17.584
+ATOM      1  CA  GLY G   3      11.535   0.802 -16.173
+ATOM      1  CA  GLY G   4       9.218   3.748 -15.756
+TER
+ATOM      1  CA  GLY I   1      10.346  -2.482 -17.753
+ATOM      1  CA  GLY I   2      11.208   0.932 -16.475
+ATOM      1  CA  GLY I   3       9.150   3.910 -15.429
+ATOM      1  CA  GLY I   4       9.720   7.174 -17.327
+TER
+ATOM      1  CA  GLY J   1      11.565   1.112 -16.209
+ATOM      1  CA  GLY J   2       8.932   3.853 -15.612
+ATOM      1  CA  GLY J   3       9.626   7.207 -17.257
+ATOM      1  CA  GLY J   4       8.712   9.069 -14.063
+TER
+ATOM      1  CA  GLY T   1       9.066   3.950 -15.630
+ATOM      1  CA  GLY T   2       9.992   7.444 -16.820
+ATOM      1  CA  GLY T   3       8.179   9.132 -13.920
+ATOM      1  CA  GLY T   4      11.128   8.668 -11.565
+TER
+ATOM      1  CA  GLY C   1       9.486   7.297 -17.149
+ATOM      1  CA  GLY C   2       8.687   9.309 -14.032
+ATOM      1  CA  GLY C   3      10.996   8.856 -11.036
+ATOM      1  CA  GLY C   4       9.028   8.915  -7.778
+TER
+ATOM      1  CA  GLY X   1       8.560   9.452 -13.836
+ATOM      1  CA  GLY X   2      10.863   8.563 -10.949
+ATOM      1  CA  GLY X   3       9.220   9.201  -7.649
+ATOM      1  CA  GLY X   4       6.668  11.718  -9.058
+TER
+ATOM      1  CA  GLY R   1      11.174   8.874 -10.843
+ATOM      1  CA  GLY R   2       8.862   8.950  -7.794
+ATOM      1  CA  GLY R   3       6.713  11.823  -9.121
+ATOM      1  CA  GLY R   4       3.082  10.754  -9.823
+TER
+ATOM      1  CA  GLY A   1       9.115   9.044  -7.742
+ATOM      1  CA  GLY A   2       6.640  11.747  -8.676
+ATOM      1  CA  GLY A   3       3.181  10.959 -10.033
+ATOM      1  CA  GLY A   4       1.177  13.709 -11.755
+TER
+ATOM      1  CA  GLY F   1       6.633  11.807  -8.904
+ATOM      1  CA  GLY F   2       3.154  10.898 -10.097
+ATOM      1  CA  GLY F   3       1.127  13.750 -11.582
+ATOM      1  CA  GLY F   4       0.218  13.173 -15.246
+TER
+ATOM      1  CA  GLY X   1       2.867  10.662 -10.189
+ATOM      1  CA  GLY X   2       1.522  13.837 -11.784
+ATOM      1  CA  GLY X   3      -0.095  13.126 -15.082
+ATOM      1  CA  GLY X   4       1.776   9.805 -15.631
+TER
+ATOM      1  CA  GLY R   1       1.454  13.727 -11.793
+ATOM      1  CA  GLY R   2       0.018  13.193 -15.301
+ATOM      1  CA  GLY R   3       1.485   9.682 -15.692
+ATOM      1  CA  GLY R   4       4.114   9.479 -18.497
+TER
+ATOM      1  CA  GLY M   1       0.242  13.262 -15.426
+ATOM      1  CA  GLY M   2       1.473   9.671 -15.592
+ATOM      1  CA  GLY M   3       3.892   9.252 -18.517
+ATOM      1  CA  GLY M   4       4.620   5.531 -18.311
+TER
+ATOM      1  CA  GLY Q   1       1.934   9.656 -15.576
+ATOM      1  CA  GLY Q   2       4.057   9.174 -18.737
+ATOM      1  CA  GLY Q   3       4.137   5.363 -18.579
+ATOM      1  CA  GLY Q   4       7.470   3.631 -19.230
+TER
+ATOM      1  CA  GLY H   1       3.957   9.016 -18.895
+ATOM      1  CA  GLY H   2       5.339   5.622 -17.798
+ATOM      1  CA  GLY H   3       6.931   3.322 -20.324
+ATOM      1  CA  GLY H   4      10.691   3.795 -20.730
+TER
+ATOM      1  CA  GLY G   1       4.720   5.445 -18.223
+ATOM      1  CA  GLY G   2       7.397   3.165 -19.670
+ATOM      1  CA  GLY G   3      10.850   3.675 -21.224
+ATOM      1  CA  GLY G   4      13.456   0.988 -20.760
+TER
+ATOM      1  CA  GLY H   1       7.547   3.854 -19.392
+ATOM      1  CA  GLY H   2      10.673   3.294 -21.523
+ATOM      1  CA  GLY H   3      13.254   0.759 -20.467
+ATOM      1  CA  GLY H   4      12.682  -2.741 -21.863
+TER
+ATOM      1  CA  GLY A   1      10.950   3.751 -21.136
+ATOM      1  CA  GLY A   2      13.427   0.895 -21.014
+ATOM      1  CA  GLY A   3      12.407  -2.711 -21.634
+ATOM      1  CA  GLY A   4      14.765  -5.524 -20.601
+TER
+ATOM      1  CA  GLY F   1      13.632   0.738 -21.003
+ATOM      1  CA  GLY F   2      12.336  -2.785 -21.514
+ATOM      1  CA  GLY F   3      14.716  -5.575 -20.514
+ATOM      1  CA  GLY F   4      15.711  -7.801 -23.452
+TER
+ATOM      1  CA  GLY H   1      12.342  -2.535 -21.559
+ATOM      1  CA  GLY H   2      14.821  -5.332 -20.745
+ATOM      1  CA  GLY H   3      15.436  -8.098 -23.231
+ATOM      1  CA  GLY H   4      13.155 -11.122 -22.812
+TER
+ATOM      1  CA  GLY R   1      14.735  -5.613 -20.818
+ATOM      1  CA  GLY R   2      15.836  -8.287 -23.325
+ATOM      1  CA  GLY R   3      12.924 -10.642 -22.545
+ATOM      1  CA  GLY R   4      14.082 -13.956 -20.965
+TER
+ATOM      1  CA  GLY F   1      15.772  -8.421 -23.461
+ATOM      1  CA  GLY F   2      12.911 -10.716 -22.513
+ATOM      1  CA  GLY F   3      13.911 -14.015 -20.910
+ATOM      1  CA  GLY F   4      12.847 -17.049 -22.970
+TER
+ATOM      1  CA  GLY C   1      13.075 -10.701 -22.658
+ATOM      1  CA  GLY C   2      13.893 -14.019 -21.010
+ATOM      1  CA  GLY C   3      12.663 -17.173 -22.757
+ATOM      1  CA  GLY C   4      11.507 -19.771 -20.225
+TER
+ATOM      1  CA  GLY E   1      14.046 -13.903 -20.888
+ATOM      1  CA  GLY E   2      12.833 -16.954 -22.728
+ATOM      1  CA  GLY E   3      11.449 -19.817 -20.590
+ATOM      1  CA  GLY E   4       9.523 -23.068 -21.067
+TER
+ATOM      1  CA  GLY C   1      12.533 -17.213 -22.920
+ATOM      1  CA  GLY C   2      11.633 -19.669 -20.170
+ATOM      1  CA  GLY C   3       9.703 -22.789 -21.195
+ATOM      1  CA  GLY C   4       7.116 -23.717 -18.560
+TER
+ATOM      1  CA  GLY M   1      11.468 -19.547 -20.177
+ATOM      1  CA  GLY M   2       9.783 -22.777 -21.256
+ATOM      1  CA  GLY M   3       7.240 -23.867 -18.624
+ATOM      1  CA  GLY M   4       6.049 -27.154 -20.104
+TER
+ATOM      1  CA  GLY R   1       9.518 -22.595 -21.257
+ATOM      1  CA  GLY R   2       7.450 -24.178 -18.452
+ATOM      1  CA  GLY R   3       6.240 -27.108 -20.592
+ATOM      1  CA  GLY R   4       7.556 -30.501 -19.337
+TER
+ATOM      1  CA  GLY J   1       7.381 -24.097 -18.609
+ATOM      1  CA  GLY J   2       5.928 -27.227 -20.308
+ATOM      1  CA  GLY J   3       7.710 -30.499 -19.564
+ATOM      1  CA  GLY J   4       7.645 -31.481 -23.243
+TER
+ATOM      1  CA  GLY W   1       6.427 -27.120 -20.428
+ATOM      1  CA  GLY W   2       7.374 -30.758 -19.719
+ATOM      1  CA  GLY W   3       7.840 -31.628 -23.422
+ATOM      1  CA  GLY W   4       5.338 -29.450 -25.277
+TER
+ATOM      1  CA  GLY H   1       7.650 -31.245 -19.521
+ATOM      1  CA  GLY H   2       7.790 -31.183 -23.343
+ATOM      1  CA  GLY H   3       5.174 -29.307 -25.303
+ATOM      1  CA  GLY H   4       6.063 -25.674 -26.034
+TER
+ATOM      1  CA  GLY A   1       7.750 -31.686 -23.455
+ATOM      1  CA  GLY A   2       5.314 -29.523 -25.376
+ATOM      1  CA  GLY A   3       5.731 -25.759 -25.674
+ATOM      1  CA  GLY A   4       3.766 -23.865 -28.337
+TER
+ATOM      1  CA  GLY H   1       5.545 -29.421 -24.980
+ATOM      1  CA  GLY H   2       5.962 -25.794 -26.121
+ATOM      1  CA  GLY H   3       3.370 -24.199 -28.345
+ATOM      1  CA  GLY H   4       4.049 -24.584 -32.075
+TER
+ATOM      1  CA  GLY N   1       6.018 -25.866 -26.701
+ATOM      1  CA  GLY N   2       3.323 -23.642 -28.207
+ATOM      1  CA  GLY N   3       3.951 -25.177 -31.623
+ATOM      1  CA  GLY N   4       6.693 -27.125 -33.396
+TER
+ATOM      1  CA  GLY D   1       3.469 -23.848 -28.255
+ATOM      1  CA  GLY D   2       3.931 -25.480 -32.183
+ATOM      1  CA  GLY D   3       6.981 -27.123 -33.849
+ATOM      1  CA  GLY D   4       6.966 -30.123 -36.188
+TER
+ATOM      1  CA  GLY G   1       4.008 -25.206 -32.366
+ATOM      1  CA  GLY G   2       6.849 -27.186 -33.937
+ATOM      1  CA  GLY G   3       7.105 -30.357 -36.056
+ATOM      1  CA  GLY G   4       9.899 -30.627 -38.574
+TER
+ATOM      1  CA  GLY H   1       6.727 -27.437 -33.841
+ATOM      1  CA  GLY H   2       7.043 -30.133 -36.535
+ATOM      1  CA  GLY H   3      10.286 -30.566 -38.407
+ATOM      1  CA  GLY H   4      10.542 -28.508 -41.605
+TER
+ATOM      1  CA  GLY X   1       7.171 -30.170 -36.660
+ATOM      1  CA  GLY X   2      10.348 -30.794 -38.646
+ATOM      1  CA  GLY X   3      10.613 -28.465 -41.562
+ATOM      1  CA  GLY X   4       6.837 -27.720 -41.702
+TER
+ATOM      1  CA  GLY Y   1       9.919 -30.794 -38.842
+ATOM      1  CA  GLY Y   2      10.661 -28.176 -41.480
+ATOM      1  CA  GLY Y   3       6.940 -27.827 -42.081
+ATOM      1  CA  GLY Y   4       6.077 -27.124 -38.454
+TER
+ATOM      1  CA  GLY R   1      10.554 -28.359 -41.541
+ATOM      1  CA  GLY R   2       6.894 -27.334 -41.995
+ATOM      1  CA  GLY R   3       6.138 -27.265 -38.246
+ATOM      1  CA  GLY R   4       5.282 -23.734 -36.973
+TER
+ATOM      1  CA  GLY H   1       6.743 -27.359 -41.951
+ATOM      1  CA  GLY H   2       5.633 -27.002 -38.309
+ATOM      1  CA  GLY H   3       5.712 -23.629 -36.628
+ATOM      1  CA  GLY H   4       2.477 -21.639 -36.946
+TER
+ATOM      1  CA  GLY D   1       6.207 -27.117 -38.627
+ATOM      1  CA  GLY D   2       5.079 -23.687 -36.331
+ATOM      1  CA  GLY D   3       2.128 -21.264 -36.768
+ATOM      1  CA  GLY D   4       0.030 -19.696 -34.008
+TER
+ATOM      1  CA  GLY D   1       5.406 -23.786 -36.642
+ATOM      1  CA  GLY D   2       2.268 -20.877 -36.631
+ATOM      1  CA  GLY D   3      -0.246 -19.943 -33.878
+ATOM      1  CA  GLY D   4      -1.497 -16.455 -33.014
+TER
+ATOM      1  CA  GLY G   1       2.146 -21.081 -36.577
+ATOM      1  CA  GLY G   2      -0.215 -19.786 -33.893
+ATOM      1  CA  GLY G   3      -1.490 -16.346 -32.825
+ATOM      1  CA  GLY G   4      -4.964 -16.073 -31.383
+TER
+ATOM      1  CA  GLY A   1      -0.355 -19.681 -34.065
+ATOM      1  CA  GLY A   2      -1.593 -16.377 -32.702
+ATOM      1  CA  GLY A   3      -5.026 -15.984 -31.125
+ATOM      1  CA  GLY A   4      -5.772 -12.895 -29.016
+TER
+ATOM      1  CA  GLY E   1      -1.646 -16.240 -32.604
+ATOM      1  CA  GLY E   2      -5.141 -15.957 -31.237
+ATOM      1  CA  GLY E   3      -5.928 -12.838 -29.155
+ATOM      1  CA  GLY E   4      -8.966 -11.076 -27.680
+TER
+ATOM      1  CA  GLY G   1      -5.122 -15.929 -30.993
+ATOM      1  CA  GLY G   2      -5.884 -12.767 -29.025
+ATOM      1  CA  GLY G   3      -9.061 -10.936 -27.948
+ATOM      1  CA  GLY G   4      -8.963  -7.179 -27.632
+TER
+ATOM      1  CA  GLY H   1      -5.899 -12.876 -28.838
+ATOM      1  CA  GLY H   2      -9.013 -10.950 -27.732
+ATOM      1  CA  GLY H   3      -9.056  -7.183 -27.868
+ATOM      1  CA  GLY H   4     -10.344  -5.745 -31.154
+TER
+ATOM      1  CA  GLY F   1      -9.112 -10.981 -27.694
+ATOM      1  CA  GLY F   2      -8.975  -7.204 -27.948
+ATOM      1  CA  GLY F   3     -10.370  -5.719 -31.157
+ATOM      1  CA  GLY F   4      -7.745  -3.817 -33.175
+TER
+ATOM      1  CA  GLY A   1      -9.007  -7.173 -27.708
+ATOM      1  CA  GLY A   2     -10.193  -5.784 -31.020
+ATOM      1  CA  GLY A   3      -7.920  -3.798 -33.326
+ATOM      1  CA  GLY A   4      -8.953  -3.257 -36.957
+TER
+ATOM      1  CA  GLY F   1     -10.266  -5.913 -31.094
+ATOM      1  CA  GLY F   2      -7.912  -3.842 -33.219
+ATOM      1  CA  GLY F   3      -9.186  -2.943 -36.687
+ATOM      1  CA  GLY F   4      -7.020  -4.384 -39.482
+TER
+ATOM      1  CA  GLY X   1      -7.666  -3.786 -33.257
+ATOM      1  CA  GLY X   2      -9.315  -3.275 -36.640
+ATOM      1  CA  GLY X   3      -6.990  -4.155 -39.436
+ATOM      1  CA  GLY X   4      -4.747  -6.415 -37.270
+TER
+ATOM      1  CA  GLY L   1      -9.497  -2.846 -36.694
+ATOM      1  CA  GLY L   2      -7.078  -4.406 -39.211
+ATOM      1  CA  GLY L   3      -4.503  -6.556 -37.390
+ATOM      1  CA  GLY L   4      -3.778  -8.492 -40.588
+TER
+ATOM      1  CA  GLY W   1      -7.020  -4.073 -39.359
+ATOM      1  CA  GLY W   2      -4.882  -6.514 -37.332
+ATOM      1  CA  GLY W   3      -3.659  -8.414 -40.428
+ATOM      1  CA  GLY W   4      -3.497  -5.812 -43.192
+TER
+ATOM      1  CA  GLY E   1      -4.836  -6.709 -37.182
+ATOM      1  CA  GLY E   2      -3.793  -8.114 -40.514
+ATOM      1  CA  GLY E   3      -3.112  -5.585 -43.311
+ATOM      1  CA  GLY E   4      -1.587  -5.523 -46.801
+TER
+ATOM      1  CA  GLY G   1      -3.862  -8.591 -40.737
+ATOM      1  CA  GLY G   2      -3.304  -5.676 -43.114
+ATOM      1  CA  GLY G   3      -1.424  -5.174 -46.403
+ATOM      1  CA  GLY G   4       0.073  -1.789 -47.131
+TER
+ATOM      1  CA  GLY E   1      -3.429  -5.787 -43.357
+ATOM      1  CA  GLY E   2      -1.518  -5.253 -46.556
+ATOM      1  CA  GLY E   3       0.449  -1.978 -46.858
+ATOM      1  CA  GLY E   4       3.076  -0.421 -49.135
+TER
+ATOM      1  CA  GLY D   1      -1.572  -5.434 -46.530
+ATOM      1  CA  GLY D   2       0.214  -1.581 -47.050
+ATOM      1  CA  GLY D   3       3.172  -0.489 -49.248
+ATOM      1  CA  GLY D   4       5.876   2.032 -48.352
+TER
+ATOM      1  CA  GLY H   1       0.379  -1.815 -46.778
+ATOM      1  CA  GLY H   2       3.065  -0.635 -49.232
+ATOM      1  CA  GLY H   3       5.443   2.121 -48.254
+ATOM      1  CA  GLY H   4       4.246   5.624 -49.161
+TER
+ATOM      1  CA  GLY X   1       3.277  -0.701 -49.010
+ATOM      1  CA  GLY X   2       5.694   2.195 -48.563
+ATOM      1  CA  GLY X   3       3.967   5.488 -48.981
+ATOM      1  CA  GLY X   4       0.458   4.093 -48.224
+TER
+ATOM      1  CA  GLY Q   1       5.834   2.197 -48.715
+ATOM      1  CA  GLY Q   2       3.881   5.499 -48.832
+ATOM      1  CA  GLY Q   3       0.476   3.969 -48.044
+ATOM      1  CA  GLY Q   4      -1.734   5.771 -45.514
+TER
+ATOM      1  CA  GLY C   1       3.761   5.536 -48.957
+ATOM      1  CA  GLY C   2       0.384   4.020 -48.121
+ATOM      1  CA  GLY C   3      -1.608   5.661 -45.319
+ATOM      1  CA  GLY C   4      -3.427   3.049 -43.229
+TER
+ATOM      1  CA  GLY E   1       0.390   4.056 -48.126
+ATOM      1  CA  GLY E   2      -1.728   5.624 -45.439
+ATOM      1  CA  GLY E   3      -3.574   3.228 -43.087
+ATOM      1  CA  GLY E   4      -5.522   3.366 -39.816
+TER
+ATOM      1  CA  GLY D   1      -1.563   5.819 -45.452
+ATOM      1  CA  GLY D   2      -3.617   2.930 -43.054
+ATOM      1  CA  GLY D   3      -5.626   3.371 -39.808
+ATOM      1  CA  GLY D   4      -5.683   1.019 -36.818
+TER
+ATOM      1  CA  GLY G   1      -3.505   3.093 -43.162
+ATOM      1  CA  GLY G   2      -5.401   3.339 -39.876
+ATOM      1  CA  GLY G   3      -5.835   1.093 -36.814
+ATOM      1  CA  GLY G   4      -9.095   1.224 -34.924
+TER
+ATOM      1  CA  GLY A   1      -5.468   3.397 -40.031
+ATOM      1  CA  GLY A   2      -5.825   1.248 -36.939
+ATOM      1  CA  GLY A   3      -8.963   1.266 -34.799
+ATOM      1  CA  GLY A   4      -8.841  -0.220 -31.289
+TER
+ATOM      1  CA  GLY A   1      -5.660   1.119 -37.039
+ATOM      1  CA  GLY A   2      -8.830   1.144 -34.976
+ATOM      1  CA  GLY A   3      -8.937  -0.120 -31.396
+ATOM      1  CA  GLY A   4     -12.308  -0.874 -29.779
+TER
+ATOM      1  CA  GLY M   1      -9.012   1.167 -34.849
+ATOM      1  CA  GLY M   2      -8.876  -0.016 -31.242
+ATOM      1  CA  GLY M   3     -12.390  -0.852 -30.006
+ATOM      1  CA  GLY M   4     -11.675  -1.763 -26.390
+TER
+ATOM      1  CA  GLY Q   1      -8.818  -0.298 -30.972
+ATOM      1  CA  GLY Q   2     -12.477  -0.903 -29.985
+ATOM      1  CA  GLY Q   3     -11.773  -1.660 -26.313
+ATOM      1  CA  GLY Q   4     -13.581  -4.621 -24.734
+TER
+ATOM      1  CA  GLY J   1     -12.353  -1.050 -29.870
+ATOM      1  CA  GLY J   2     -11.769  -1.717 -26.126
+ATOM      1  CA  GLY J   3     -13.785  -4.559 -24.612
+ATOM      1  CA  GLY J   4     -14.678  -2.436 -21.579
+TER
+ATOM      1  CA  GLY N   1     -11.834  -2.023 -26.363
+ATOM      1  CA  GLY N   2     -13.720  -4.709 -24.438
+ATOM      1  CA  GLY N   3     -14.631  -2.167 -21.766
+ATOM      1  CA  GLY N   4     -14.837   1.611 -21.400
+TER
+ATOM      1  CA  GLY H   1     -13.839  -4.549 -24.457
+ATOM      1  CA  GLY H   2     -14.502  -2.273 -21.456
+ATOM      1  CA  GLY H   3     -14.678   1.464 -21.917
+ATOM      1  CA  GLY H   4     -11.342   3.258 -21.493
+TER
+ATOM      1  CA  GLY M   1     -14.463  -2.083 -21.587
+ATOM      1  CA  GLY M   2     -14.777   1.702 -21.683
+ATOM      1  CA  GLY M   3     -11.317   3.306 -21.491
+ATOM      1  CA  GLY M   4     -12.243   6.989 -21.432
+TER
+ATOM      1  CA  GLY L   1     -14.509   1.533 -21.715
+ATOM      1  CA  GLY L   2     -11.340   3.672 -21.667
+ATOM      1  CA  GLY L   3     -12.257   7.362 -21.330
+ATOM      1  CA  GLY L   4      -8.882   8.387 -22.764
+TER
+ATOM      1  CA  GLY W   1     -11.044   3.621 -21.493
+ATOM      1  CA  GLY W   2     -12.239   7.255 -21.459
+ATOM      1  CA  GLY W   3      -8.892   8.636 -22.715
+ATOM      1  CA  GLY W   4      -6.255   6.296 -21.297
+TER
+ATOM      1  CA  GLY F   1     -12.337   7.467 -21.424
+ATOM      1  CA  GLY F   2      -8.905   8.436 -22.702
+ATOM      1  CA  GLY F   3      -5.996   6.448 -21.275
+ATOM      1  CA  GLY F   4      -4.089   4.489 -23.941
+TER
+ATOM      1  CA  GLY Q   1      -8.495   8.396 -22.999
+ATOM      1  CA  GLY Q   2      -5.840   6.396 -21.080
+ATOM      1  CA  GLY Q   3      -4.453   4.562 -24.124
+ATOM      1  CA  GLY Q   4      -0.665   4.288 -24.455
+TER
+ATOM      1  CA  GLY G   1      -6.084   6.496 -21.370
+ATOM      1  CA  GLY G   2      -4.093   4.323 -23.772
+ATOM      1  CA  GLY G   3      -0.407   4.003 -24.728
+ATOM      1  CA  GLY G   4       0.464   2.976 -28.251
+TER
+ATOM      1  CA  GLY C   1      -4.059   4.450 -23.931
+ATOM      1  CA  GLY C   2      -0.375   4.033 -24.743
+ATOM      1  CA  GLY C   3       0.502   2.832 -28.250
+ATOM      1  CA  GLY C   4       3.466   0.443 -28.170
+TER
+ATOM      1  CA  GLY A   1      -0.538   4.182 -24.794
+ATOM      1  CA  GLY A   2       0.726   2.776 -28.070
+ATOM      1  CA  GLY A   3       3.599   0.299 -28.249
+ATOM      1  CA  GLY A   4       5.331  -0.319 -31.590
+TER
+ATOM      1  CA  GLY C   1       0.541   2.605 -28.408
+ATOM      1  CA  GLY C   2       3.665   0.461 -28.190
+ATOM      1  CA  GLY C   3       5.490  -0.280 -31.451
+ATOM      1  CA  GLY C   4       6.842  -3.839 -31.477
+TER
+ATOM      1  CA  GLY A   1       3.566   0.532 -28.173
+ATOM      1  CA  GLY A   2       5.291  -0.516 -31.371
+ATOM      1  CA  GLY A   3       7.057  -3.860 -31.730
+ATOM      1  CA  GLY A   4       9.481  -4.393 -34.625
+TER
+ATOM      1  CA  GLY E   1       5.479  -0.303 -31.507
+ATOM      1  CA  GLY E   2       7.021  -3.736 -31.498
+ATOM      1  CA  GLY E   3       9.181  -4.660 -34.525
+ATOM      1  CA  GLY E   4      10.827  -7.750 -36.026
+TER
+ATOM      1  CA  GLY H   1       6.868  -3.827 -31.720
+ATOM      1  CA  GLY H   2       9.426  -4.309 -34.522
+ATOM      1  CA  GLY H   3      10.547  -7.777 -35.485
+ATOM      1  CA  GLY H   4      13.614  -9.019 -33.594
+TER
+ATOM      1  CA  GLY X   1       9.334  -4.301 -34.890
+ATOM      1  CA  GLY X   2      10.579  -7.815 -35.617
+ATOM      1  CA  GLY X   3      13.445  -8.732 -33.394
+ATOM      1  CA  GLY X   4      12.578  -6.133 -30.688
+TER
+ATOM      1  CA  GLY R   1      10.738  -7.843 -35.731
+ATOM      1  CA  GLY R   2      13.043  -8.830 -32.839
+ATOM      1  CA  GLY R   3      12.743  -5.458 -31.056
+ATOM      1  CA  GLY R   4      11.005  -5.743 -27.633
+TER
+ATOM      1  CA  GLY I   1      13.317  -8.790 -33.012
+ATOM      1  CA  GLY I   2      12.563  -5.810 -30.870
+ATOM      1  CA  GLY I   3      10.842  -5.368 -27.548
+ATOM      1  CA  GLY I   4       7.761  -3.113 -27.469
+TER
+ATOM      1  CA  GLY H   1      12.591  -6.240 -30.719
+ATOM      1  CA  GLY H   2      10.919  -5.082 -27.481
+ATOM      1  CA  GLY H   3       7.797  -2.974 -27.612
+ATOM      1  CA  GLY H   4       8.439   0.783 -27.652
+TER
+ATOM      1  CA  GLY C   1      10.695  -5.246 -27.212
+ATOM      1  CA  GLY C   2       7.814  -2.788 -27.453
+ATOM      1  CA  GLY C   3       8.693   0.853 -28.149
+ATOM      1  CA  GLY C   4       6.420   3.200 -26.195
+TER
+ATOM      1  CA  GLY F   1       7.539  -2.881 -27.424
+ATOM      1  CA  GLY F   2       8.749   0.684 -27.847
+ATOM      1  CA  GLY F   3       6.421   3.380 -26.517
+ATOM      1  CA  GLY F   4       5.173   5.740 -29.247
+TER
+ATOM      1  CA  GLY A   1       8.782   0.561 -27.648
+ATOM      1  CA  GLY A   2       6.557   3.451 -26.647
+ATOM      1  CA  GLY A   3       5.034   5.823 -29.193
+ATOM      1  CA  GLY A   4       2.143   8.080 -28.151
+TER
+ATOM      1  CA  GLY N   1       5.996   3.868 -26.320
+ATOM      1  CA  GLY N   2       5.359   5.807 -29.532
+ATOM      1  CA  GLY N   3       2.375   7.515 -27.918
+ATOM      1  CA  GLY N   4       1.048   8.200 -24.422
+TER
+ATOM      1  CA  GLY D   1       5.188   5.461 -29.533
+ATOM      1  CA  GLY D   2       2.235   8.093 -27.904
+ATOM      1  CA  GLY D   3       0.949   8.459 -24.300
+ATOM      1  CA  GLY D   4      -2.638   9.108 -23.209
+TER
+ATOM      1  CA  GLY X   1       1.584   8.115 -27.935
+ATOM      1  CA  GLY X   2       1.022   8.081 -24.178
+ATOM      1  CA  GLY X   3      -2.391   9.336 -23.299
+ATOM      1  CA  GLY X   4      -3.888   8.612 -26.772
+TER
+ATOM      1  CA  GLY T   1       0.871   8.090 -24.316
+ATOM      1  CA  GLY T   2      -2.528   9.416 -23.233
+ATOM      1  CA  GLY T   3      -4.119   8.686 -26.621
+ATOM      1  CA  GLY T   4      -2.834  11.932 -28.130
+TER
+ATOM      1  CA  GLY W   1      -2.552   9.485 -23.182
+ATOM      1  CA  GLY W   2      -4.033   8.712 -26.623
+ATOM      1  CA  GLY W   3      -2.809  11.998 -28.172
+ATOM      1  CA  GLY W   4       0.446  12.790 -26.378
+TER
+ATOM      1  CA  GLY H   1      -4.177   8.667 -26.705
+ATOM      1  CA  GLY H   2      -2.639  11.905 -28.038
+ATOM      1  CA  GLY H   3       0.579  13.214 -26.576
+ATOM      1  CA  GLY H   4       3.724  11.969 -28.333
+TER
+ATOM      1  CA  GLY C   1      -2.587  11.988 -28.077
+ATOM      1  CA  GLY C   2       0.773  12.816 -26.520
+ATOM      1  CA  GLY C   3       3.873  12.174 -28.640
+ATOM      1  CA  GLY C   4       6.735  10.854 -26.504
+TER
+ATOM      1  CA  GLY F   1       0.767  12.865 -26.435
+ATOM      1  CA  GLY F   2       3.890  12.215 -28.478
+ATOM      1  CA  GLY F   3       6.903  10.965 -26.525
+ATOM      1  CA  GLY F   4       9.874  13.358 -26.689
+TER
+ATOM      1  CA  GLY H   1       3.689  11.983 -28.317
+ATOM      1  CA  GLY H   2       6.954  10.973 -26.601
+ATOM      1  CA  GLY H   3       9.954  13.250 -26.753
+ATOM      1  CA  GLY H   4      12.271  12.602 -29.709
+TER
+ATOM      1  CA  GLY W   1       7.270  10.834 -27.040
+ATOM      1  CA  GLY W   2       9.968  13.501 -26.549
+ATOM      1  CA  GLY W   3      11.922  12.466 -29.679
+ATOM      1  CA  GLY W   4       9.294  11.223 -32.126
+TER
+ATOM      1  CA  GLY H   1      10.120  13.515 -26.426
+ATOM      1  CA  GLY H   2      11.647  12.561 -29.800
+ATOM      1  CA  GLY H   3       9.454  11.226 -32.561
+ATOM      1  CA  GLY H   4       8.051  13.901 -34.885
+TER
+ATOM      1  CA  GLY D   1      12.387  12.203 -29.529
+ATOM      1  CA  GLY D   2       9.242  11.606 -32.368
+ATOM      1  CA  GLY D   3       7.748  14.013 -34.965
+ATOM      1  CA  GLY D   4       4.084  14.341 -35.934
+TER
+ATOM      1  CA  GLY K   1       9.270  11.627 -32.334
+ATOM      1  CA  GLY K   2       7.877  13.547 -35.254
+ATOM      1  CA  GLY K   3       4.179  14.286 -35.413
+ATOM      1  CA  GLY K   4       3.739  11.626 -38.147
+TER
+ATOM      1  CA  GLY R   1       7.876  14.048 -35.124
+ATOM      1  CA  GLY R   2       4.099  14.391 -35.638
+ATOM      1  CA  GLY R   3       3.820  11.296 -37.869
+ATOM      1  CA  GLY R   4       1.714   8.500 -36.267
+TER
+ATOM      1  CA  GLY T   1       4.066  13.965 -35.578
+ATOM      1  CA  GLY T   2       3.173  11.448 -38.289
+ATOM      1  CA  GLY T   3       2.180   8.771 -35.760
+ATOM      1  CA  GLY T   4      -1.310  10.215 -35.326
+TER
+ATOM      1  CA  GLY A   1       3.964  11.151 -38.217
+ATOM      1  CA  GLY A   2       1.720   8.909 -36.158
+ATOM      1  CA  GLY A   3      -1.683  10.035 -34.902
+ATOM      1  CA  GLY A   4      -3.404   8.055 -32.135
+TER
+ATOM      1  CA  GLY M   1       1.735   8.513 -35.918
+ATOM      1  CA  GLY M   2      -1.634  10.074 -35.114
+ATOM      1  CA  GLY M   3      -3.345   8.123 -32.313
+ATOM      1  CA  GLY M   4      -6.655   9.968 -32.079
+TER
+ATOM      1  CA  GLY E   1      -1.295   9.991 -35.023
+ATOM      1  CA  GLY E   2      -3.442   8.420 -32.361
+ATOM      1  CA  GLY E   3      -6.962   9.868 -31.913
+ATOM      1  CA  GLY E   4     -10.199   9.005 -30.100
+TER
+ATOM      1  CA  GLY I   1      -3.664   8.330 -32.272
+ATOM      1  CA  GLY I   2      -6.922   9.936 -31.350
+ATOM      1  CA  GLY I   3     -10.351   8.588 -30.564
+ATOM      1  CA  GLY I   4     -11.801   9.413 -27.129
+TER
+ATOM      1  CA  GLY D   1      -6.776  10.007 -31.835
+ATOM      1  CA  GLY D   2     -10.581   8.767 -30.320
+ATOM      1  CA  GLY D   3     -12.126   9.200 -26.827
+ATOM      1  CA  GLY D   4     -14.251   6.670 -24.939
+TER
+ATOM      1  CA  GLY N   1     -10.615   8.202 -29.499
+ATOM      1  CA  GLY N   2     -12.541   9.966 -26.731
+ATOM      1  CA  GLY N   3     -13.725   6.609 -25.404
+ATOM      1  CA  GLY N   4     -14.085   3.035 -26.649
+TER
+ATOM      1  CA  GLY X   1     -12.271   8.848 -27.117
+ATOM      1  CA  GLY X   2     -14.409   6.461 -25.077
+ATOM      1  CA  GLY X   3     -14.089   2.946 -26.317
+ATOM      1  CA  GLY X   4     -12.883   3.968 -29.828
+TER
+ATOM      1  CA  GLY H   1     -14.822   6.451 -24.566
+ATOM      1  CA  GLY H   2     -13.681   3.372 -26.527
+ATOM      1  CA  GLY H   3     -12.849   3.663 -30.192
+ATOM      1  CA  GLY H   4      -9.192   4.457 -30.915
+TER
+ATOM      1  CA  GLY B   1     -14.201   3.048 -26.485
+ATOM      1  CA  GLY B   2     -12.708   3.499 -29.955
+ATOM      1  CA  GLY B   3      -9.310   4.777 -30.977
+ATOM      1  CA  GLY B   4      -7.564   5.500 -34.259
+TER
+ATOM      1  CA  GLY D   1     -13.046   3.292 -30.026
+ATOM      1  CA  GLY D   2      -9.197   4.952 -30.882
+ATOM      1  CA  GLY D   3      -7.448   5.566 -34.249
+ATOM      1  CA  GLY D   4      -3.755   5.083 -35.027
+TER
+ATOM      1  CA  GLY A   1      -9.056   4.856 -30.712
+ATOM      1  CA  GLY A   2      -7.787   5.329 -34.243
+ATOM      1  CA  GLY A   3      -4.089   5.250 -35.105
+ATOM      1  CA  GLY A   4      -2.923   6.621 -38.467
+TER
+ATOM      1  CA  GLY A   1      -7.665   5.401 -33.952
+ATOM      1  CA  GLY A   2      -4.089   5.236 -35.172
+ATOM      1  CA  GLY A   3      -3.034   6.572 -38.567
+ATOM      1  CA  GLY A   4       0.340   5.540 -40.017
+TER
+ATOM      1  CA  GLY L   1      -3.758   5.137 -35.088
+ATOM      1  CA  GLY L   2      -3.130   6.719 -38.513
+ATOM      1  CA  GLY L   3       0.209   5.515 -39.917
+ATOM      1  CA  GLY L   4       0.381   8.529 -42.237
+TER
+ATOM      1  CA  GLY M   1      -3.171   6.235 -38.299
+ATOM      1  CA  GLY M   2       0.119   5.955 -40.177
+ATOM      1  CA  GLY M   3       0.526   8.917 -42.552
+ATOM      1  CA  GLY M   4       3.979   8.223 -43.971
+TER
+ATOM      1  CA  GLY X   1       0.380   5.458 -40.182
+ATOM      1  CA  GLY X   2       0.667   8.566 -42.348
+ATOM      1  CA  GLY X   3       3.905   8.627 -44.221
+ATOM      1  CA  GLY X   4       4.474   4.826 -43.975
+TER
+ATOM      1  CA  GLY C   1       0.538   8.925 -42.252
+ATOM      1  CA  GLY C   2       3.786   8.285 -44.107
+ATOM      1  CA  GLY C   3       4.869   4.654 -44.505
+ATOM      1  CA  GLY C   4       8.646   4.313 -44.162
+TER
+ATOM      1  CA  GLY E   1       3.988   8.610 -44.180
+ATOM      1  CA  GLY E   2       4.731   4.922 -44.279
+ATOM      1  CA  GLY E   3       8.426   3.909 -44.236
+ATOM      1  CA  GLY E   4      10.523   0.759 -43.798
+TER
+ATOM      1  CA  GLY K   1       4.888   4.648 -44.403
+ATOM      1  CA  GLY K   2       8.605   4.211 -44.013
+ATOM      1  CA  GLY K   3      10.064   0.738 -43.780
+ATOM      1  CA  GLY K   4      10.666   1.216 -40.018
+TER
+ATOM      1  CA  GLY V   1       8.768   4.211 -44.339
+ATOM      1  CA  GLY V   2      10.209   0.711 -43.683
+ATOM      1  CA  GLY V   3      10.482   1.274 -40.027
+ATOM      1  CA  GLY V   4       6.627   1.298 -39.804
+TER
+ATOM      1  CA  GLY V   1      10.346   0.581 -43.771
+ATOM      1  CA  GLY V   2      10.336   1.121 -39.967
+ATOM      1  CA  GLY V   3       6.646   1.458 -39.809
+ATOM      1  CA  GLY V   4       6.325  -2.280 -40.724
+TER
+ATOM      1  CA  GLY P   1      10.455   1.191 -40.018
+ATOM      1  CA  GLY P   2       6.655   1.408 -39.851
+ATOM      1  CA  GLY P   3       6.293  -2.311 -40.553
+ATOM      1  CA  GLY P   4       5.408  -3.349 -37.009
+TER
+ATOM      1  CA  GLY Q   1       6.780   1.294 -40.165
+ATOM      1  CA  GLY Q   2       5.648  -2.372 -40.269
+ATOM      1  CA  GLY Q   3       5.868  -2.958 -36.505
+ATOM      1  CA  GLY Q   4       3.005  -4.841 -34.834
+TER
+ATOM      1  CA  GLY I   1       6.123  -2.779 -40.591
+ATOM      1  CA  GLY I   2       5.637  -2.953 -36.880
+ATOM      1  CA  GLY I   3       2.910  -4.339 -34.680
+ATOM      1  CA  GLY I   4       1.176  -1.897 -32.311
+TER
+ATOM      1  CA  GLY A   1       5.515  -3.457 -37.123
+ATOM      1  CA  GLY A   2       3.166  -4.374 -34.304
+ATOM      1  CA  GLY A   3       1.170  -1.770 -32.390
+ATOM      1  CA  GLY A   4      -0.420  -2.713 -29.054
+TER
+ATOM      1  CA  GLY E   1       3.094  -4.649 -34.240
+ATOM      1  CA  GLY E   2       1.256  -1.779 -32.643
+ATOM      1  CA  GLY E   3      -0.448  -2.483 -29.284
+ATOM      1  CA  GLY E   4      -2.929  -0.807 -26.929
+TER
+ATOM      1  CA  GLY C   1       0.981  -1.599 -32.448
+ATOM      1  CA  GLY C   2      -0.180  -2.797 -29.039
+ATOM      1  CA  GLY C   3      -2.780  -0.667 -27.245
+ATOM      1  CA  GLY C   4      -2.102  -0.559 -23.500
+TER
+ATOM      1  CA  GLY M   1      -0.214  -2.505 -29.067
+ATOM      1  CA  GLY M   2      -3.048  -0.939 -27.079
+ATOM      1  CA  GLY M   3      -2.086  -0.709 -23.391
+ATOM      1  CA  GLY M   4      -5.281   0.711 -21.910
+TER
+ATOM      1  CA  GLY A   1      -2.579  -0.911 -27.346
+ATOM      1  CA  GLY A   2      -2.418  -0.354 -23.608
+ATOM      1  CA  GLY A   3      -5.467   0.613 -21.561
+ATOM      1  CA  GLY A   4      -4.992   2.006 -18.043
+TER
+ATOM      1  CA  GLY M   1      -2.196  -0.432 -23.232
+ATOM      1  CA  GLY M   2      -5.514   0.568 -21.675
+ATOM      1  CA  GLY M   3      -4.937   2.031 -18.195
+ATOM      1  CA  GLY M   4      -8.514   2.651 -17.081
+TER
+ATOM      1  CA  GLY H   1      -4.963   0.820 -21.989
+ATOM      1  CA  GLY H   2      -5.355   1.729 -18.294
+ATOM      1  CA  GLY H   3      -8.746   2.631 -16.917
+ATOM      1  CA  GLY H   4     -10.723  -0.326 -15.548
+TER
+ATOM      1  CA  GLY X   1      -5.274   1.711 -18.186
+ATOM      1  CA  GLY X   2      -8.613   2.604 -16.610
+ATOM      1  CA  GLY X   3     -10.745  -0.432 -16.124
+ATOM      1  CA  GLY X   4      -7.788  -2.898 -16.191
+TER
+ATOM      1  CA  GLY N   1      -8.544   2.410 -16.713
+ATOM      1  CA  GLY N   2     -10.885  -0.512 -16.038
+ATOM      1  CA  GLY N   3      -7.931  -2.899 -16.078
+ATOM      1  CA  GLY N   4      -4.354  -2.964 -17.366
+TER
+ATOM      1  CA  GLY F   1     -10.446  -0.450 -15.961
+ATOM      1  CA  GLY F   2      -8.135  -3.452 -16.007
+ATOM      1  CA  GLY F   3      -4.673  -2.841 -17.453
+ATOM      1  CA  GLY F   4      -3.973  -4.939 -20.565
+TER
+ATOM      1  CA  GLY E   1      -7.960  -3.300 -15.771
+ATOM      1  CA  GLY E   2      -4.618  -2.987 -17.474
+ATOM      1  CA  GLY E   3      -4.228  -4.778 -20.839
+ATOM      1  CA  GLY E   4      -1.767  -4.900 -23.744
+TER
+ATOM      1  CA  GLY G   1      -4.198  -2.943 -17.228
+ATOM      1  CA  GLY G   2      -4.267  -4.880 -20.499
+ATOM      1  CA  GLY G   3      -2.328  -4.728 -23.788
+ATOM      1  CA  GLY G   4      -4.095  -5.700 -26.975
+TER
+ATOM      1  CA  GLY E   1      -4.011  -4.633 -20.465
+ATOM      1  CA  GLY E   2      -2.234  -4.957 -23.767
+ATOM      1  CA  GLY E   3      -4.357  -6.048 -26.764
+ATOM      1  CA  GLY E   4      -3.849  -7.220 -30.353
+TER
+ATOM      1  CA  GLY H   1      -2.089  -5.057 -23.866
+ATOM      1  CA  GLY H   2      -4.496  -5.358 -26.823
+ATOM      1  CA  GLY H   3      -3.530  -7.385 -29.851
+ATOM      1  CA  GLY H   4      -1.747  -5.395 -32.569
+TER
+ATOM      1  CA  GLY E   1      -4.440  -5.697 -26.696
+ATOM      1  CA  GLY E   2      -3.861  -7.329 -30.037
+ATOM      1  CA  GLY E   3      -1.618  -5.444 -32.506
+ATOM      1  CA  GLY E   4      -0.639  -5.614 -36.184
+TER
+ATOM      1  CA  GLY H   1      -3.860  -7.456 -30.530
+ATOM      1  CA  GLY H   2      -1.137  -5.570 -32.442
+ATOM      1  CA  GLY H   3      -1.160  -5.519 -36.211
+ATOM      1  CA  GLY H   4       0.814  -8.347 -37.833
+TER
+ATOM      1  CA  GLY B   1      -1.501  -5.498 -32.514
+ATOM      1  CA  GLY B   2      -0.688  -5.558 -36.230
+ATOM      1  CA  GLY B   3       0.841  -8.297 -38.325
+ATOM      1  CA  GLY B   4       1.638  -8.772 -41.997
+TER
+ATOM      1  CA  GLY I   1      -0.722  -5.789 -36.314
+ATOM      1  CA  GLY I   2       0.973  -8.406 -38.393
+ATOM      1  CA  GLY I   3       1.655  -8.753 -42.082
+ATOM      1  CA  GLY I   4       0.204 -11.816 -43.841
+TER
+ATOM      1  CA  GLY C   1       0.866  -8.390 -38.504
+ATOM      1  CA  GLY C   2       1.727  -8.883 -42.167
+ATOM      1  CA  GLY C   3       0.260 -11.944 -43.897
+ATOM      1  CA  GLY C   4       2.757 -13.455 -46.341
+TER
+ATOM      1  CA  GLY C   1       1.641  -8.765 -42.226
+ATOM      1  CA  GLY C   2       0.365 -11.911 -43.922
+ATOM      1  CA  GLY C   3       2.709 -13.623 -46.390
+ATOM      1  CA  GLY C   4       0.779 -15.001 -49.369
+TER
+ATOM      1  CA  GLY M   1       0.312 -11.833 -44.048
+ATOM      1  CA  GLY M   2       2.696 -13.730 -46.318
+ATOM      1  CA  GLY M   3       0.797 -15.158 -49.307
+ATOM      1  CA  GLY M   4       3.572 -17.058 -51.071
+TER
+ATOM      1  CA  GLY Y   1       2.937 -13.883 -46.622
+ATOM      1  CA  GLY Y   2       0.678 -15.097 -49.412
+ATOM      1  CA  GLY Y   3       3.601 -17.029 -50.844
+ATOM      1  CA  GLY Y   4       4.360 -18.914 -47.640
+TER
+ATOM      1  CA  GLY R   1       1.009 -14.872 -49.606
+ATOM      1  CA  GLY R   2       3.166 -17.837 -50.705
+ATOM      1  CA  GLY R   3       4.513 -18.542 -47.195
+ATOM      1  CA  GLY R   4       3.376 -21.957 -45.831
+TER
+ATOM      1  CA  GLY H   1       3.567 -17.613 -50.974
+ATOM      1  CA  GLY H   2       4.793 -18.799 -47.551
+ATOM      1  CA  GLY H   3       2.934 -21.514 -45.712
+ATOM      1  CA  GLY H   4       0.204 -20.244 -43.375
+TER
+ATOM      1  CA  GLY M   1       4.495 -19.340 -47.932
+ATOM      1  CA  GLY M   2       3.282 -21.484 -45.039
+ATOM      1  CA  GLY M   3       0.188 -19.908 -43.450
+ATOM      1  CA  GLY M   4      -0.441 -22.312 -40.579
+TER
+ATOM      1  CA  GLY E   1       3.360 -21.808 -45.455
+ATOM      1  CA  GLY E   2       0.419 -20.245 -43.703
+ATOM      1  CA  GLY E   3      -0.601 -21.784 -40.346
+ATOM      1  CA  GLY E   4      -2.887 -20.979 -37.407
+TER
+ATOM      1  CA  GLY A   1       0.290 -19.924 -43.476
+ATOM      1  CA  GLY A   2      -0.572 -22.171 -40.558
+ATOM      1  CA  GLY A   3      -2.819 -21.040 -37.712
+ATOM      1  CA  GLY A   4      -2.864 -23.032 -34.460
+TER
+ATOM      1  CA  GLY M   1      -0.493 -22.076 -40.194
+ATOM      1  CA  GLY M   2      -2.896 -20.862 -37.514
+ATOM      1  CA  GLY M   3      -2.909 -23.293 -34.571
+ATOM      1  CA  GLY M   4      -5.558 -21.714 -32.355
+TER
+ATOM      1  CA  GLY F   1      -2.777 -20.990 -37.782
+ATOM      1  CA  GLY F   2      -3.033 -23.037 -34.605
+ATOM      1  CA  GLY F   3      -5.519 -21.766 -32.025
+ATOM      1  CA  GLY F   4      -3.864 -20.787 -28.726
+TER
+ATOM      1  CA  GLY M   1      -3.128 -23.289 -34.501
+ATOM      1  CA  GLY M   2      -5.533 -21.666 -32.049
+ATOM      1  CA  GLY M   3      -3.672 -20.638 -28.878
+ATOM      1  CA  GLY M   4      -6.461 -18.946 -26.933
+TER
+ATOM      1  CA  GLY Q   1      -5.797 -21.544 -31.921
+ATOM      1  CA  GLY Q   2      -3.632 -20.820 -28.836
+ATOM      1  CA  GLY Q   3      -6.304 -18.879 -26.927
+ATOM      1  CA  GLY Q   4      -5.250 -15.652 -25.192
+TER
+ATOM      1  CA  GLY A   1      -3.838 -20.642 -29.052
+ATOM      1  CA  GLY A   2      -6.203 -18.863 -26.697
+ATOM      1  CA  GLY A   3      -5.239 -15.679 -24.865
+ATOM      1  CA  GLY A   4      -7.965 -13.539 -23.274
+TER
+ATOM      1  CA  GLY C   1      -6.429 -18.654 -26.911
+ATOM      1  CA  GLY C   2      -5.182 -15.709 -24.869
+ATOM      1  CA  GLY C   3      -7.804 -13.612 -23.069
+ATOM      1  CA  GLY C   4      -6.888  -9.918 -23.155
+TER
+END
