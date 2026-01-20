@@ -85,20 +85,17 @@ for (i in 1:length(strs)) {
 		str_bio3d_ca = trim.pdb(str_bio3d, ca.inds)
 
 		#_______________________________________________________________________________
-		## encode structure, fit output selectable
-<<<<<<< HEAD
+		## encode structure and write out 'fragment_fit.pdb'
 		## xfit = 0 : no fragment output
 		## xfit = 1 : localfit output
 		## xfit = 2 : globalfit output
-=======
 		## 'globalfit' includes 'localfit' followed by selection
->>>>>>> a4645ad9e1a86446c50a14ff05a72adbe3d7cfe9
 		if (opt$localfit == TRUE) {
-		  sa_char.v = encode(str_bio3d_ca$xyz, xfit = 1)
+		  sa_char.v = encode_xfit(str_bio3d_ca$xyz, chains[j])
 		} else if (opt$globalfit == TRUE) {
-		  sa_char.v = encode(str_bio3d_ca$xyz, xfit = 2)
+		  sa_char.v = encode(str_bio3d_ca$xyz)
 		} else {
-		  sa_char.v = encode(str_bio3d_ca$xyz, xfit = 0)
+		  sa_char.v = encode(str_bio3d_ca$xyz)
 		}
 		  
 		## from vector of chars to (vector of) string
@@ -111,13 +108,7 @@ for (i in 1:length(strs)) {
 	## write stacked sequences, all chains of this structure
 	write.table(sa_stack.fasta, file = paste(dataDir, "/", str_name, ".sasta", sep = ''),
 		quote = FALSE, row.names = FALSE, col.names = FALSE)
-	
-	if (opt$fitout == TRUE) {
-	## write out fitted fragments
-	  write.pdb(frags, file = paste(dataDir, "/", str_name, "frags.pdb", sep = ''),
-	              quote = FALSE, row.names = FALSE, col.names = FALSE)
 	}
-}
 
 #===============================================================================
 

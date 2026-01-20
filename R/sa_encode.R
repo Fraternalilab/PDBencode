@@ -79,7 +79,8 @@ sadata <- setClass(
   return(entryf)
 }
 
-.putpdb = function(fragstring, xyz_l_in) {
+#_______________________________________________________________________________
+.putpdb = function(fragstring, xyz_l_in, chain) {
   ## 4 atoms plus TER per fragment, plus END 
   pdbOut <- character(5 * length(xyz_l_in) + 1)
   
@@ -94,12 +95,12 @@ sadata <- setClass(
   }
   pdbOut[((i-1)*5) + (j + 1) + 1] = "END"
   
-  writeLines(pdbOut, "fragment_fit.pdb")
+  writeLines(pdbOut, paste0("fragment_fit_", chain, ".pdb"))
 }
 
 #_______________________________________________________________________________
 ## encode structure, optionally write out local/global-ly fitted fragments
-encode_xfit = function(pdb.xyz, xfit) {
+encode_xfit = function(pdb.xyz, chain) {
   sadata_o = new("sadata")
   
   sadata_o = .assign_M32K25(sadata_o)
@@ -145,14 +146,14 @@ encode_xfit = function(pdb.xyz, xfit) {
   names(xyz_l) = fragstring
   
   ## write multi-chain PDB file of fitted fragments
-  .putpdb(fragstring, xyz_l)
+  .putpdb(fragstring, xyz_l, chain)
   
   # return string of SA fragments
   return(fragstring)
 }
 
 #_______________________________________________________________________________
-encode = function(pdb.xyz, xfit) {
+encode = function(pdb.xyz) {
   sadata_o = new("sadata")
   
   sadata_o = .assign_M32K25(sadata_o)

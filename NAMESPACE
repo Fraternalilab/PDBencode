@@ -1,6 +1,7 @@
 useDynLib(PDBencode, .registration = TRUE)
 exportClasses(sadata)
 export(encode)
+export(encode_xfit)
 export(kabsch_C)
 export(kabsch_R)
 importFrom("methods", "new")
