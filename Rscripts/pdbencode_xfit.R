@@ -3,8 +3,7 @@
 #===============================================================================
 # PDBencode script with output of fitted fragments
 # - localfit: fragment fit to CA1-CA2-CA3-CA4 atoms of the template structure
-# - globalfit: fragment fit to CA2-CA3-CA4 of the previously fitted fragment
-#     and the CA4 of the template structure
+# - globalfit: as yet undefined; probably best-fitting atom of 4 fragments
 # Read PDB structure(s) in mounted (and argument-passed) directory
 # Encode structure(s) and write SA string(s) as FASTA format
 # Each chain is encoded separately
